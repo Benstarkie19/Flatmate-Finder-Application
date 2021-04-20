@@ -9,12 +9,21 @@ Developed using react native/expo/kitten ui
 
 ```
 $ yarn
+
+
 ```
 
-2. Start expo
+2. Will need to install expo
+
+```
+$ npm install --global expo-cli
+```
+https://docs.expo.io/get-started/installation/
+
+3. Start expo
 
 ```
 $ yarn start
 ```
 
-3. Only works for android and desktop atm 
+4. Only works for android and desktop atm 
