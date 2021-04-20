@@ -29,7 +29,7 @@ export default ({ navigation, onSignIn }) => {
 
   const styles = useStyleSheet(themedStyles);
 
-  const onSignUpButtonPress = () => {
+   const onSignUpButtonPress = () => {
     navigation && navigation.navigate("SignUp2");
   };
 
@@ -45,13 +45,16 @@ export default ({ navigation, onSignIn }) => {
     <>
       <View style={styles.headerContainer}>
         <Input
-          placeholder="Search Here"
+          placeholder="Edge Hill University"
           icon={searchIcon}
           value={email}
           onChangeText={setEmail}
+          icon={searchIcon}
         />
       </View>
       <Layout style={styles.formContainer} level="1">
+
+        
 
  <Card>
    <Avatar size='giant' shape='square' source={require('../assets/home1.png')}/>
@@ -62,6 +65,8 @@ export default ({ navigation, onSignIn }) => {
     <Text>No prepayment</Text> 
     <Text>PW: 100</Text>
   </Card>
+
+  
 
 
 
@@ -88,6 +93,8 @@ export default ({ navigation, onSignIn }) => {
         style={styles.signUpButton}
         appearance="ghost"
         status="basic"
+        onPress={onSignUpButtonPress}
+
       >
         Recommened Properties Here
         

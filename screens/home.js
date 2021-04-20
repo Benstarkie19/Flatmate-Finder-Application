@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View,Linking} from "react-native";
 import {
   Button,
   Input,
@@ -7,6 +7,9 @@ import {
   StyleService,
   Text,
   useStyleSheet,
+    Card,
+  Avatar,
+  CheckBox ,
 } from "@ui-kitten/components";
 import { Icon } from "@ui-kitten/components";
 
@@ -15,6 +18,8 @@ export const EyeIcon = (style) => <Icon {...style} name="eye" />;
 export const EyeOffIcon = (style) => <Icon {...style} name="eye-off" />;
 
 export const PersonIcon = (style) => <Icon {...style} name="person" />;
+
+export const ArrowIcon = (style) => <Icon {...style} name="arrow-ios-forward-outline" />;
 
 export const searchIcon = style => (
   <Icon {...style} name="search-outline" />
@@ -27,8 +32,7 @@ export default ({ navigation, onSignIn }) => {
 
   const styles = useStyleSheet(themedStyles);
 
-  const onSignUpButtonPress = () => {
-    navigation && navigation.navigate("SignUp2");
+  const onSigninButtonPress = () => {;
   };
 
   const onForgotPasswordButtonPress = () => {
@@ -38,6 +42,9 @@ export default ({ navigation, onSignIn }) => {
   const onPasswordIconPress = () => {
     setPasswordVisible(!passwordVisible);
   };
+  const [checked, setChecked] = React.useState(false);
+
+
 
   return (
     <>
@@ -46,48 +53,66 @@ export default ({ navigation, onSignIn }) => {
            Find A Property
         </Text>
       </View>
+      
       <Layout style={styles.formContainer} level="1">
         <Input
           placeholder="Search Here"
-          icon={searchIcon}
+          icon={ArrowIcon}
           value={email}
           onChangeText={setEmail}
+          checked={checked}
+          onChange={nextChecked => setChecked(nextChecked)}
         />
         <Input
           placeholder="City"
-          icon={searchIcon}
+          icon={ArrowIcon}
           value={email}
           onChangeText={setEmail}
         />
         <Input
           placeholder="Rent"
-          icon={searchIcon}
+          icon={ArrowIcon}
           value={email}
           onChangeText={setEmail}
         />
         <Input
           placeholder="Price"
-          icon={searchIcon}
+          icon={ArrowIcon}
           value={email}
           onChangeText={setEmail}
         />
         <Input
           placeholder="Date"
-          icon={searchIcon}
+          icon={ArrowIcon}
           value={email}
           onChangeText={setEmail}
         />
       </Layout>
 
-            <Button style={styles.signInButton} size="giant" onPress={onSignIn}>
-        Search a Property
+      <Button style={styles.signInButton} size="giant" onPress={ ()=>{ Linking.openURL('https://zoopla.com')}} >
+        Search For Properties
       </Button>
+
+
+
+
+ <Card>
+   <Avatar size='large' shape='square' source={require('../assets/home1.png')}/>
+    <Text>
+    Ormskirk, 0.5 miles from Campus
+    </Text>
+    <Text>Standard double room</Text>
+    <Text>No prepayment</Text> 
+    <Text>PW: 100</Text>
+  </Card>
+
 
 
       <Button
         style={styles.signUpButton}
         appearance="ghost"
         status="basic"
+        onPress={ ()=>{ Linking.openURL('https://zoopla.com')}} 
       >
         Recommened Properties Here
         

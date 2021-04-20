@@ -27,7 +27,7 @@ export default () => {
 
   return (
     <>
-    <NavigationContainer>{/* Rest of your app code */}</NavigationContainer>
+    <NavigationContainer>{}</NavigationContainer>
       <IconRegistry icons={EvaIconsPack} />
       <ApplicationProvider {...eva} theme={{ ...eva.light, ...theme }}>  
         {isSignedIn ? (
