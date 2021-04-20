@@ -27,3 +27,9 @@ $ yarn start
 ```
 
 4. Only works for android and desktop atm 
+
+
+
+# Features
+
+![Screenshot](screenshot.png)
