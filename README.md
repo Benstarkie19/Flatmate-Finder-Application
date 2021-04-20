@@ -16,3 +16,5 @@ $ yarn
 ```
 $ yarn start
 ```
+
+3. Only works for android and desktop atm 
