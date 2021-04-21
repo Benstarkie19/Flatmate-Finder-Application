@@ -37,7 +37,7 @@ $ yarn start
 [You Will Need To Download Figma To Use](https://github.com/Benstarkie19/Flatmate-Finder-Application/blob/master/Student%20Flat%20Applcation.fig)
 
 
-# Applcation Screenshotsy 
+# Applcation Screenshots
 ![Screenshot](screen1.png)
 ![Screenshot](screen2.png)
 
