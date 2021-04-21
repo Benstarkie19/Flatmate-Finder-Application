@@ -13,11 +13,8 @@ export const favIcon = style => (
 );
 
 export const GithubIcon = () => (
-  <Icon name='credit-card-outline' />  // Icons added from https://akveo.github.io/eva-icons/#/?searchKey=no&type=outline
+  <Icon name='credit-card-outline' />  // All Icons are from the framwork eve
 );
-
-
-
 
 const data = new Array(8).fill({
   title: 'Item',

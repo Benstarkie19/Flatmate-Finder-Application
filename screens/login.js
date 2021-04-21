@@ -10,11 +10,15 @@ import {
 } from "@ui-kitten/components";
 import { Icon } from "@ui-kitten/components";
 
+// More icons 
+
+
+
 export const EyeIcon = (style) => <Icon {...style} name="eye" />;
 
 export const EyeOffIcon = (style) => <Icon {...style} name="eye-off" />;
 
-export const PersonIcon = (style) => <Icon {...style} name="person" />;
+export const PersonIcon = (style) => <Icon {...style} name="person" />;  
 
 export default ({ navigation, onSignIn }) => {
   const [email, setEmail] = React.useState();
@@ -34,6 +38,9 @@ export default ({ navigation, onSignIn }) => {
   const onPasswordIconPress = () => {
     setPasswordVisible(!passwordVisible);
   };
+
+
+// Input forms for the auth which is only a test and doesn't authentic anything ;)
 
   return (
     <>
@@ -85,6 +92,8 @@ export default ({ navigation, onSignIn }) => {
     </>
   );
 };
+
+// This is treated like a css stylesheet allowing for flex box and other styles to be added for components 
 
 const themedStyles = StyleService.create({
   container: {

@@ -1,3 +1,5 @@
+// This page allows to link everything from the bottomnavigation to Button
+
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -35,7 +37,7 @@ const BottomTabBar = ({ navigation, state }) => {
 
   return (
     <SafeAreaView>
-      <BottomNavigation selectedIndex={state.index} onSelect={onSelect}>
+      <BottomNavigation selectedIndex={state.index} onSelect={onSelect}>   
         <BottomNavigationTab icon={HomeIcon} />
         <BottomNavigationTab icon={searchIcon} />
         <BottomNavigationTab icon={proIcon} /> 
@@ -44,7 +46,7 @@ const BottomTabBar = ({ navigation, state }) => {
     </SafeAreaView>
   );
 };
-
+// Bottom navigation alows quick
 const TabNavigator = () => (
   <BottomTab.Navigator tabBar={props => <BottomTabBar {...props} />}>
     <BottomTab.Screen name="Users" component={HomeScreen} />

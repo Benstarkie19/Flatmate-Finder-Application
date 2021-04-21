@@ -113,7 +113,7 @@ export default ({ navigation, onSignUp }) => {
         style={styles.signUpButton}
         appearance="ghost"
         status="basic"
-        onPress={ ()=>{ Linking.openURL('https://zoopla.com')}} 
+        onPress={ ()=>{ Linking.openURL('https://zoopla.com')}}  // Just links to a website
       >
         Recommened Properties Here
         
