@@ -31,9 +31,9 @@ export default ({ navigation, onSignIn }) => {
   const styles = useStyleSheet(themedStyles);
 
   const onSignUpButtonPress = () => {;
-    navigation && navigation.navigate("Basket");
+    navigation && navigation.navigate("Land");
   };
-  
+
   const onForgotPasswordButtonPress = () => {
     navigation && navigation.navigate("ForgotPassword");
   };

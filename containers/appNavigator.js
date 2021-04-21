@@ -8,6 +8,7 @@ import HomeScreen from '../screens/home';
 import MenuScreen from '../screens/menu';
 import HouseScreen from '../screens/house';
 import ProfileScreen from '../screens/profile';
+import LandScreen from '../screens/land';
 
 const BottomTab = createBottomTabNavigator();
 
@@ -37,8 +38,8 @@ const BottomTabBar = ({ navigation, state }) => {
       <BottomNavigation selectedIndex={state.index} onSelect={onSelect}>
         <BottomNavigationTab icon={HomeIcon} />
         <BottomNavigationTab icon={searchIcon} />
-        <BottomNavigationTab icon={bellIcon} /> 
-        <BottomNavigationTab icon={proIcon} />   
+        <BottomNavigationTab icon={proIcon} /> 
+        <BottomNavigationTab icon={bellIcon} />   
       </BottomNavigation>
     </SafeAreaView>
   );
@@ -48,6 +49,7 @@ const TabNavigator = () => (
   <BottomTab.Navigator tabBar={props => <BottomTabBar {...props} />}>
     <BottomTab.Screen name="Users" component={HomeScreen} />
     <BottomTab.Screen name="Basket" component={HouseScreen} />
+    <BottomTab.Screen name="Land" component={LandScreen} />
     <BottomTab.Screen name="Menu" component={MenuScreen} />
     <BottomTab.Screen name="Profile" component={ProfileScreen} />
   </BottomTab.Navigator>
