@@ -25,14 +25,15 @@ export const searchIcon = style => (
   <Icon {...style} name="search-outline" />
 );
 
-export default ({ navigation, onSignIn }) => {
+export default ({ navigation, onSignUp }) => {
   const [email, setEmail] = React.useState();
   const [password, setPassword] = React.useState();
   const [passwordVisible, setPasswordVisible] = React.useState(false);
 
   const styles = useStyleSheet(themedStyles);
 
-  const onSigninButtonPress = () => {;
+  const onSignUpButtonPress = () => {;
+    navigation && navigation.navigate("Basket");
   };
 
   const onForgotPasswordButtonPress = () => {
@@ -89,7 +90,7 @@ export default ({ navigation, onSignIn }) => {
         />
       </Layout>
 
-      <Button style={styles.signInButton} size="giant" onPress={ ()=>{ Linking.openURL('https://zoopla.com')}} >
+      <Button style={styles.signInButton} size="giant" onPress={onSignUpButtonPress} >
         Search For Properties
       </Button>
 

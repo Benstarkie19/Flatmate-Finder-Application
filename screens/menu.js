@@ -30,9 +30,10 @@ export default ({ navigation, onSignIn }) => {
 
   const styles = useStyleSheet(themedStyles);
 
-  const onSigninButtonPress = () => {;
+  const onSignUpButtonPress = () => {;
+    navigation && navigation.navigate("Basket");
   };
-
+  
   const onForgotPasswordButtonPress = () => {
     navigation && navigation.navigate("ForgotPassword");
   };
@@ -69,7 +70,7 @@ export default ({ navigation, onSignIn }) => {
         
       </Layout>
 
-      <Button style={styles.signInButton} size="medium" onPress={ ()=>{ Linking.openURL('https://zoopla.com')}} >
+      <Button style={styles.signInButton} size="medium" onPress={onSignUpButtonPress} >
         Search For App Approved Landlords
       </Button>
 
