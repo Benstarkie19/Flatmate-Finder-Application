@@ -40,3 +40,7 @@ $ yarn start
 # Applcation Screenshotsy 
 ![Screenshot](screen1.png)
 ![Screenshot](screen2.png)
+
+
+# Applcation APK For Android 
+[Working APK For Android device Or Emulator ](https://github.com/Benstarkie19/Flatmate-Finder-Application/blob/master/apk%20build/StudentFla-7f169ecd6311463a98c124aecc6e4f6c-signed.apk)
