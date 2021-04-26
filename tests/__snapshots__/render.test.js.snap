@@ -1,0 +1,3335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#0F9CF9",
+        "justifyContent": "center",
+        "minHeight": 216,
+      }
+    }
+  >
+    <Text
+      appearance="default"
+      category="h1"
+      dispatch={[Function]}
+      status="control"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "System",
+            "fontSize": 36,
+            "fontWeight": "800",
+            "lineHeight": 48,
+          },
+          undefined,
+        ]
+      }
+      theme={
+        Object {
+          "background-alternative-color-1": "#222B45",
+          "background-alternative-color-2": "#1A2138",
+          "background-alternative-color-3": "#151A30",
+          "background-alternative-color-4": "#101426",
+          "background-basic-color-1": "#FFFFFF",
+          "background-basic-color-2": "#F7F9FC",
+          "background-basic-color-3": "#EDF1F7",
+          "background-basic-color-4": "#E4E9F2",
+          "border-alternative-color-1": "#222B45",
+          "border-alternative-color-2": "#1A2138",
+          "border-alternative-color-3": "#151A30",
+          "border-alternative-color-4": "#101426",
+          "border-alternative-color-5": "#101426",
+          "border-basic-color-1": "#FFFFFF",
+          "border-basic-color-2": "#F7F9FC",
+          "border-basic-color-3": "#EDF1F7",
+          "border-basic-color-4": "#E4E9F2",
+          "border-basic-color-5": "#C5CEE0",
+          "border-danger-color-1": "#ffffff",
+          "border-danger-color-2": "#DBBABD",
+          "border-danger-color-3": "#B7808A",
+          "border-danger-color-4": "#935162",
+          "border-danger-color-5": "#7A304A",
+          "border-info-color-1": "#194059",
+          "border-info-color-2": "#12324C",
+          "border-info-color-3": "#0C2540",
+          "border-info-color-4": "#071A33",
+          "border-info-color-5": "#04122A",
+          "border-primary-color-1": "#0F9CF9",
+          "border-primary-color-2": "#0A79D6",
+          "border-primary-color-3": "#075AB3",
+          "border-primary-color-4": "#044090",
+          "border-primary-color-5": "#022D77",
+          "border-success-color-1": "#04619e",
+          "border-success-color-2": "#024B87",
+          "border-success-color-3": "#023871",
+          "border-success-color-4": "#01275B",
+          "border-success-color-5": "#001C4B",
+          "border-warning-color-1": "#e5e9ec",
+          "border-warning-color-2": "#A7B9CA",
+          "border-warning-color-3": "#738CA9",
+          "border-warning-color-4": "#496288",
+          "border-warning-color-5": "#2B4371",
+          "color-basic-100": "#FFFFFF",
+          "color-basic-1000": "#151A30",
+          "color-basic-1100": "#101426",
+          "color-basic-200": "#F7F9FC",
+          "color-basic-300": "#EDF1F7",
+          "color-basic-400": "#E4E9F2",
+          "color-basic-500": "#C5CEE0",
+          "color-basic-600": "#8F9BB3",
+          "color-basic-700": "#2E3A59",
+          "color-basic-800": "#222B45",
+          "color-basic-900": "#1A2138",
+          "color-basic-active": "#E4E9F2",
+          "color-basic-active-border": "#E4E9F2",
+          "color-basic-control-transparent-100": "rgba(255, 255, 255, 0.08)",
+          "color-basic-control-transparent-200": "rgba(255, 255, 255, 0.16)",
+          "color-basic-control-transparent-300": "rgba(255, 255, 255, 0.24)",
+          "color-basic-control-transparent-400": "rgba(255, 255, 255, 0.32)",
+          "color-basic-control-transparent-500": "rgba(255, 255, 255, 0.40)",
+          "color-basic-control-transparent-600": "rgba(255, 255, 255, 0.48)",
+          "color-basic-default": "#EDF1F7",
+          "color-basic-default-border": "#EDF1F7",
+          "color-basic-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-basic-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-basic-focus": "#E4E9F2",
+          "color-basic-focus-border": "#C5CEE0",
+          "color-basic-hover": "#F7F9FC",
+          "color-basic-hover-border": "#F7F9FC",
+          "color-basic-transparent-100": "rgba(143, 155, 179, 0.08)",
+          "color-basic-transparent-200": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-300": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-400": "rgba(143, 155, 179, 0.32)",
+          "color-basic-transparent-500": "rgba(143, 155, 179, 0.40)",
+          "color-basic-transparent-600": "rgba(143, 155, 179, 0.48)",
+          "color-basic-transparent-active": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-active-border": "#8F9BB3",
+          "color-basic-transparent-default": "rgba(143, 155, 179, 0.08)",
+          "color-basic-transparent-default-border": "#8F9BB3",
+          "color-basic-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-focus": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-focus-border": "#8F9BB3",
+          "color-basic-transparent-hover": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-hover-border": "#8F9BB3",
+          "color-control-active": "#EDF1F7",
+          "color-control-active-border": "#EDF1F7",
+          "color-control-default": "#FFFFFF",
+          "color-control-default-border": "#FFFFFF",
+          "color-control-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-control-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-control-focus": "#EDF1F7",
+          "color-control-focus-border": "#C5CEE0",
+          "color-control-hover": "#F7F9FC",
+          "color-control-hover-border": "#F7F9FC",
+          "color-control-transparent-active": "rgba(255, 255, 255, 0.24)",
+          "color-control-transparent-active-border": "#FFFFFF",
+          "color-control-transparent-default": "rgba(255, 255, 255, 0.08)",
+          "color-control-transparent-default-border": "#FFFFFF",
+          "color-control-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-control-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-control-transparent-focus": "rgba(255, 255, 255, 0.24)",
+          "color-control-transparent-focus-border": "#FFFFFF",
+          "color-control-transparent-hover": "rgba(255, 255, 255, 0.16)",
+          "color-control-transparent-hover-border": "#FFFFFF",
+          "color-danger-100": "#FFFFFF",
+          "color-danger-200": "#FFFFFF",
+          "color-danger-300": "#FFFFFF",
+          "color-danger-400": "#FFFFFF",
+          "color-danger-500": "#ffffff",
+          "color-danger-600": "#DBBABD",
+          "color-danger-700": "#B7808A",
+          "color-danger-800": "#935162",
+          "color-danger-900": "#7A304A",
+          "color-danger-active": "#DBBABD",
+          "color-danger-active-border": "#DBBABD",
+          "color-danger-default": "#ffffff",
+          "color-danger-default-border": "#ffffff",
+          "color-danger-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-danger-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-danger-focus": "#DBBABD",
+          "color-danger-focus-border": "color-danger-700",
+          "color-danger-hover": "#FFFFFF",
+          "color-danger-hover-border": "#FFFFFF",
+          "color-danger-transparent-100": "rgba(255, 255, 255, 0.08)",
+          "color-danger-transparent-200": "rgba(255, 255, 255, 0.16)",
+          "color-danger-transparent-300": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-400": "rgba(255, 255, 255, 0.32)",
+          "color-danger-transparent-500": "rgba(255, 255, 255, 0.4)",
+          "color-danger-transparent-600": "rgba(255, 255, 255, 0.48)",
+          "color-danger-transparent-active": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-active-border": "#ffffff",
+          "color-danger-transparent-default": "rgba(255, 255, 255, 0.08)",
+          "color-danger-transparent-default-border": "#ffffff",
+          "color-danger-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-danger-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-danger-transparent-focus": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-focus-border": "#ffffff",
+          "color-danger-transparent-hover": "rgba(255, 255, 255, 0.16)",
+          "color-danger-transparent-hover-border": "#ffffff",
+          "color-info-100": "#D3F1F6",
+          "color-info-200": "#A9DFEE",
+          "color-info-300": "#74B5CD",
+          "color-info-400": "#477F9B",
+          "color-info-500": "#194059",
+          "color-info-600": "#12324C",
+          "color-info-700": "#0C2540",
+          "color-info-800": "#071A33",
+          "color-info-900": "#04122A",
+          "color-info-active": "#12324C",
+          "color-info-active-border": "#12324C",
+          "color-info-default": "#194059",
+          "color-info-default-border": "#194059",
+          "color-info-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-info-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-info-focus": "#12324C",
+          "color-info-focus-border": "#0C2540",
+          "color-info-hover": "#477F9B",
+          "color-info-hover-border": "#477F9B",
+          "color-info-transparent-100": "rgba(25, 64, 89, 0.08)",
+          "color-info-transparent-200": "rgba(25, 64, 89, 0.16)",
+          "color-info-transparent-300": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-400": "rgba(25, 64, 89, 0.32)",
+          "color-info-transparent-500": "rgba(25, 64, 89, 0.4)",
+          "color-info-transparent-600": "rgba(25, 64, 89, 0.48)",
+          "color-info-transparent-active": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-active-border": "#194059",
+          "color-info-transparent-default": "rgba(25, 64, 89, 0.08)",
+          "color-info-transparent-default-border": "#194059",
+          "color-info-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-info-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-info-transparent-focus": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-focus-border": "#194059",
+          "color-info-transparent-hover": "rgba(25, 64, 89, 0.16)",
+          "color-info-transparent-hover-border": "#194059",
+          "color-primary-100": "#CEF6FE",
+          "color-primary-200": "#9EE9FE",
+          "color-primary-300": "#6ED5FD",
+          "color-primary-400": "#4ABFFB",
+          "color-primary-500": "#0F9CF9",
+          "color-primary-600": "#0A79D6",
+          "color-primary-700": "#075AB3",
+          "color-primary-800": "#044090",
+          "color-primary-900": "#022D77",
+          "color-primary-active": "#0A79D6",
+          "color-primary-active-border": "#0A79D6",
+          "color-primary-default": "#0F9CF9",
+          "color-primary-default-border": "#0F9CF9",
+          "color-primary-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-primary-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-primary-focus": "#0A79D6",
+          "color-primary-focus-border": "#075AB3",
+          "color-primary-hover": "#4ABFFB",
+          "color-primary-hover-border": "#4ABFFB",
+          "color-primary-transparent-100": "rgba(15, 156, 249, 0.08)",
+          "color-primary-transparent-200": "rgba(15, 156, 249, 0.16)",
+          "color-primary-transparent-300": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-400": "rgba(15, 156, 249, 0.32)",
+          "color-primary-transparent-500": "rgba(15, 156, 249, 0.4)",
+          "color-primary-transparent-600": "rgba(15, 156, 249, 0.48)",
+          "color-primary-transparent-active": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-active-border": "#0F9CF9",
+          "color-primary-transparent-default": "rgba(15, 156, 249, 0.08)",
+          "color-primary-transparent-default-border": "#0F9CF9",
+          "color-primary-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-primary-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-primary-transparent-focus": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-focus-border": "#0F9CF9",
+          "color-primary-transparent-hover": "rgba(15, 156, 249, 0.16)",
+          "color-primary-transparent-hover-border": "#0F9CF9",
+          "color-success-100": "#C9F2FA",
+          "color-success-200": "#95E0F5",
+          "color-success-300": "#5DBDE1",
+          "color-success-400": "#3494C4",
+          "color-success-500": "#04619e",
+          "color-success-600": "#024B87",
+          "color-success-700": "#023871",
+          "color-success-800": "#01275B",
+          "color-success-900": "#001C4B",
+          "color-success-active": "#024B87",
+          "color-success-active-border": "#024B87",
+          "color-success-default": "#04619e",
+          "color-success-default-border": "#04619e",
+          "color-success-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-success-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-success-focus": "#024B87",
+          "color-success-focus-border": "#023871",
+          "color-success-hover": "#3494C4",
+          "color-success-hover-border": "#3494C4",
+          "color-success-transparent-100": "rgba(4, 97, 158, 0.08)",
+          "color-success-transparent-200": "rgba(4, 97, 158, 0.16)",
+          "color-success-transparent-300": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-400": "rgba(4, 97, 158, 0.32)",
+          "color-success-transparent-500": "rgba(4, 97, 158, 0.4)",
+          "color-success-transparent-600": "rgba(4, 97, 158, 0.48)",
+          "color-success-transparent-active": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-active-border": "#04619e",
+          "color-success-transparent-default": "rgba(4, 97, 158, 0.08)",
+          "color-success-transparent-default-border": "#04619e",
+          "color-success-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-success-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-success-transparent-focus": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-focus-border": "#04619e",
+          "color-success-transparent-hover": "rgba(4, 97, 158, 0.16)",
+          "color-success-transparent-hover-border": "#04619e",
+          "color-warning-100": "#FCFDFE",
+          "color-warning-200": "#FAFCFD",
+          "color-warning-300": "#F4F7F9",
+          "color-warning-400": "#EEF1F3",
+          "color-warning-500": "#e5e9ec",
+          "color-warning-600": "#A7B9CA",
+          "color-warning-700": "#738CA9",
+          "color-warning-800": "#496288",
+          "color-warning-900": "#2B4371",
+          "color-warning-active": "#A7B9CA",
+          "color-warning-active-border": "#A7B9CA",
+          "color-warning-default": "#e5e9ec",
+          "color-warning-default-border": "#e5e9ec",
+          "color-warning-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-warning-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-warning-focus": "#A7B9CA",
+          "color-warning-focus-border": "#738CA9",
+          "color-warning-hover": "#EEF1F3",
+          "color-warning-hover-border": "#EEF1F3",
+          "color-warning-transparent-100": "rgba(229, 233, 236, 0.08)",
+          "color-warning-transparent-200": "rgba(229, 233, 236, 0.16)",
+          "color-warning-transparent-300": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-400": "rgba(229, 233, 236, 0.32)",
+          "color-warning-transparent-500": "rgba(229, 233, 236, 0.4)",
+          "color-warning-transparent-600": "rgba(229, 233, 236, 0.48)",
+          "color-warning-transparent-active": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-active-border": "#e5e9ec",
+          "color-warning-transparent-default": "rgba(229, 233, 236, 0.08)",
+          "color-warning-transparent-default-border": "#e5e9ec",
+          "color-warning-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-warning-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-warning-transparent-focus": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-focus-border": "#e5e9ec",
+          "color-warning-transparent-hover": "rgba(229, 233, 236, 0.16)",
+          "color-warning-transparent-hover-border": "#e5e9ec",
+          "outline-color": "rgba(143, 155, 179, 0.16)",
+          "text-alternate-color": "#FFFFFF",
+          "text-basic-color": "#222B45",
+          "text-control-color": "#FFFFFF",
+          "text-danger-active-color": "#DBBABD",
+          "text-danger-color": "#ffffff",
+          "text-danger-disabled-color": "#FFFFFF",
+          "text-danger-focus-color": "#DBBABD",
+          "text-danger-hover-color": "#FFFFFF",
+          "text-disabled-color": "rgba(143, 155, 179, 0.48)",
+          "text-hint-color": "#8F9BB3",
+          "text-info-active-color": "#12324C",
+          "text-info-color": "#194059",
+          "text-info-disabled-color": "#477F9B",
+          "text-info-focus-color": "#12324C",
+          "text-info-hover-color": "#477F9B",
+          "text-primary-active-color": "#0A79D6",
+          "text-primary-color": "#0F9CF9",
+          "text-primary-disabled-color": "#4ABFFB",
+          "text-primary-focus-color": "#0A79D6",
+          "text-primary-hover-color": "#4ABFFB",
+          "text-success-active-color": "#024B87",
+          "text-success-color": "#04619e",
+          "text-success-disabled-color": "#3494C4",
+          "text-success-focus-color": "#024B87",
+          "text-success-hover-color": "#3494C4",
+          "text-warning-active-color": "#A7B9CA",
+          "text-warning-color": "#e5e9ec",
+          "text-warning-disabled-color": "#EEF1F3",
+          "text-warning-focus-color": "#A7B9CA",
+          "text-warning-hover-color": "#EEF1F3",
+        }
+      }
+    >
+      Login
+    </Text>
+  </View>
+  <View
+    appearance="default"
+    dispatch={[Function]}
+    level="1"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        Object {
+          "flex": 1,
+          "paddingHorizontal": 16,
+          "paddingTop": 32,
+        },
+      ]
+    }
+    theme={
+      Object {
+        "background-alternative-color-1": "#222B45",
+        "background-alternative-color-2": "#1A2138",
+        "background-alternative-color-3": "#151A30",
+        "background-alternative-color-4": "#101426",
+        "background-basic-color-1": "#FFFFFF",
+        "background-basic-color-2": "#F7F9FC",
+        "background-basic-color-3": "#EDF1F7",
+        "background-basic-color-4": "#E4E9F2",
+        "border-alternative-color-1": "#222B45",
+        "border-alternative-color-2": "#1A2138",
+        "border-alternative-color-3": "#151A30",
+        "border-alternative-color-4": "#101426",
+        "border-alternative-color-5": "#101426",
+        "border-basic-color-1": "#FFFFFF",
+        "border-basic-color-2": "#F7F9FC",
+        "border-basic-color-3": "#EDF1F7",
+        "border-basic-color-4": "#E4E9F2",
+        "border-basic-color-5": "#C5CEE0",
+        "border-danger-color-1": "#ffffff",
+        "border-danger-color-2": "#DBBABD",
+        "border-danger-color-3": "#B7808A",
+        "border-danger-color-4": "#935162",
+        "border-danger-color-5": "#7A304A",
+        "border-info-color-1": "#194059",
+        "border-info-color-2": "#12324C",
+        "border-info-color-3": "#0C2540",
+        "border-info-color-4": "#071A33",
+        "border-info-color-5": "#04122A",
+        "border-primary-color-1": "#0F9CF9",
+        "border-primary-color-2": "#0A79D6",
+        "border-primary-color-3": "#075AB3",
+        "border-primary-color-4": "#044090",
+        "border-primary-color-5": "#022D77",
+        "border-success-color-1": "#04619e",
+        "border-success-color-2": "#024B87",
+        "border-success-color-3": "#023871",
+        "border-success-color-4": "#01275B",
+        "border-success-color-5": "#001C4B",
+        "border-warning-color-1": "#e5e9ec",
+        "border-warning-color-2": "#A7B9CA",
+        "border-warning-color-3": "#738CA9",
+        "border-warning-color-4": "#496288",
+        "border-warning-color-5": "#2B4371",
+        "color-basic-100": "#FFFFFF",
+        "color-basic-1000": "#151A30",
+        "color-basic-1100": "#101426",
+        "color-basic-200": "#F7F9FC",
+        "color-basic-300": "#EDF1F7",
+        "color-basic-400": "#E4E9F2",
+        "color-basic-500": "#C5CEE0",
+        "color-basic-600": "#8F9BB3",
+        "color-basic-700": "#2E3A59",
+        "color-basic-800": "#222B45",
+        "color-basic-900": "#1A2138",
+        "color-basic-active": "#E4E9F2",
+        "color-basic-active-border": "#E4E9F2",
+        "color-basic-control-transparent-100": "rgba(255, 255, 255, 0.08)",
+        "color-basic-control-transparent-200": "rgba(255, 255, 255, 0.16)",
+        "color-basic-control-transparent-300": "rgba(255, 255, 255, 0.24)",
+        "color-basic-control-transparent-400": "rgba(255, 255, 255, 0.32)",
+        "color-basic-control-transparent-500": "rgba(255, 255, 255, 0.40)",
+        "color-basic-control-transparent-600": "rgba(255, 255, 255, 0.48)",
+        "color-basic-default": "#EDF1F7",
+        "color-basic-default-border": "#EDF1F7",
+        "color-basic-disabled": "rgba(143, 155, 179, 0.24)",
+        "color-basic-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-basic-focus": "#E4E9F2",
+        "color-basic-focus-border": "#C5CEE0",
+        "color-basic-hover": "#F7F9FC",
+        "color-basic-hover-border": "#F7F9FC",
+        "color-basic-transparent-100": "rgba(143, 155, 179, 0.08)",
+        "color-basic-transparent-200": "rgba(143, 155, 179, 0.16)",
+        "color-basic-transparent-300": "rgba(143, 155, 179, 0.24)",
+        "color-basic-transparent-400": "rgba(143, 155, 179, 0.32)",
+        "color-basic-transparent-500": "rgba(143, 155, 179, 0.40)",
+        "color-basic-transparent-600": "rgba(143, 155, 179, 0.48)",
+        "color-basic-transparent-active": "rgba(143, 155, 179, 0.24)",
+        "color-basic-transparent-active-border": "#8F9BB3",
+        "color-basic-transparent-default": "rgba(143, 155, 179, 0.08)",
+        "color-basic-transparent-default-border": "#8F9BB3",
+        "color-basic-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+        "color-basic-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-basic-transparent-focus": "rgba(143, 155, 179, 0.24)",
+        "color-basic-transparent-focus-border": "#8F9BB3",
+        "color-basic-transparent-hover": "rgba(143, 155, 179, 0.16)",
+        "color-basic-transparent-hover-border": "#8F9BB3",
+        "color-control-active": "#EDF1F7",
+        "color-control-active-border": "#EDF1F7",
+        "color-control-default": "#FFFFFF",
+        "color-control-default-border": "#FFFFFF",
+        "color-control-disabled": "rgba(143, 155, 179, 0.24)",
+        "color-control-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-control-focus": "#EDF1F7",
+        "color-control-focus-border": "#C5CEE0",
+        "color-control-hover": "#F7F9FC",
+        "color-control-hover-border": "#F7F9FC",
+        "color-control-transparent-active": "rgba(255, 255, 255, 0.24)",
+        "color-control-transparent-active-border": "#FFFFFF",
+        "color-control-transparent-default": "rgba(255, 255, 255, 0.08)",
+        "color-control-transparent-default-border": "#FFFFFF",
+        "color-control-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+        "color-control-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-control-transparent-focus": "rgba(255, 255, 255, 0.24)",
+        "color-control-transparent-focus-border": "#FFFFFF",
+        "color-control-transparent-hover": "rgba(255, 255, 255, 0.16)",
+        "color-control-transparent-hover-border": "#FFFFFF",
+        "color-danger-100": "#FFFFFF",
+        "color-danger-200": "#FFFFFF",
+        "color-danger-300": "#FFFFFF",
+        "color-danger-400": "#FFFFFF",
+        "color-danger-500": "#ffffff",
+        "color-danger-600": "#DBBABD",
+        "color-danger-700": "#B7808A",
+        "color-danger-800": "#935162",
+        "color-danger-900": "#7A304A",
+        "color-danger-active": "#DBBABD",
+        "color-danger-active-border": "#DBBABD",
+        "color-danger-default": "#ffffff",
+        "color-danger-default-border": "#ffffff",
+        "color-danger-disabled": "rgba(143, 155, 179, 0.24)",
+        "color-danger-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-danger-focus": "#DBBABD",
+        "color-danger-focus-border": "color-danger-700",
+        "color-danger-hover": "#FFFFFF",
+        "color-danger-hover-border": "#FFFFFF",
+        "color-danger-transparent-100": "rgba(255, 255, 255, 0.08)",
+        "color-danger-transparent-200": "rgba(255, 255, 255, 0.16)",
+        "color-danger-transparent-300": "rgba(255, 255, 255, 0.24)",
+        "color-danger-transparent-400": "rgba(255, 255, 255, 0.32)",
+        "color-danger-transparent-500": "rgba(255, 255, 255, 0.4)",
+        "color-danger-transparent-600": "rgba(255, 255, 255, 0.48)",
+        "color-danger-transparent-active": "rgba(255, 255, 255, 0.24)",
+        "color-danger-transparent-active-border": "#ffffff",
+        "color-danger-transparent-default": "rgba(255, 255, 255, 0.08)",
+        "color-danger-transparent-default-border": "#ffffff",
+        "color-danger-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+        "color-danger-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-danger-transparent-focus": "rgba(255, 255, 255, 0.24)",
+        "color-danger-transparent-focus-border": "#ffffff",
+        "color-danger-transparent-hover": "rgba(255, 255, 255, 0.16)",
+        "color-danger-transparent-hover-border": "#ffffff",
+        "color-info-100": "#D3F1F6",
+        "color-info-200": "#A9DFEE",
+        "color-info-300": "#74B5CD",
+        "color-info-400": "#477F9B",
+        "color-info-500": "#194059",
+        "color-info-600": "#12324C",
+        "color-info-700": "#0C2540",
+        "color-info-800": "#071A33",
+        "color-info-900": "#04122A",
+        "color-info-active": "#12324C",
+        "color-info-active-border": "#12324C",
+        "color-info-default": "#194059",
+        "color-info-default-border": "#194059",
+        "color-info-disabled": "rgba(143, 155, 179, 0.24)",
+        "color-info-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-info-focus": "#12324C",
+        "color-info-focus-border": "#0C2540",
+        "color-info-hover": "#477F9B",
+        "color-info-hover-border": "#477F9B",
+        "color-info-transparent-100": "rgba(25, 64, 89, 0.08)",
+        "color-info-transparent-200": "rgba(25, 64, 89, 0.16)",
+        "color-info-transparent-300": "rgba(25, 64, 89, 0.24)",
+        "color-info-transparent-400": "rgba(25, 64, 89, 0.32)",
+        "color-info-transparent-500": "rgba(25, 64, 89, 0.4)",
+        "color-info-transparent-600": "rgba(25, 64, 89, 0.48)",
+        "color-info-transparent-active": "rgba(25, 64, 89, 0.24)",
+        "color-info-transparent-active-border": "#194059",
+        "color-info-transparent-default": "rgba(25, 64, 89, 0.08)",
+        "color-info-transparent-default-border": "#194059",
+        "color-info-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+        "color-info-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-info-transparent-focus": "rgba(25, 64, 89, 0.24)",
+        "color-info-transparent-focus-border": "#194059",
+        "color-info-transparent-hover": "rgba(25, 64, 89, 0.16)",
+        "color-info-transparent-hover-border": "#194059",
+        "color-primary-100": "#CEF6FE",
+        "color-primary-200": "#9EE9FE",
+        "color-primary-300": "#6ED5FD",
+        "color-primary-400": "#4ABFFB",
+        "color-primary-500": "#0F9CF9",
+        "color-primary-600": "#0A79D6",
+        "color-primary-700": "#075AB3",
+        "color-primary-800": "#044090",
+        "color-primary-900": "#022D77",
+        "color-primary-active": "#0A79D6",
+        "color-primary-active-border": "#0A79D6",
+        "color-primary-default": "#0F9CF9",
+        "color-primary-default-border": "#0F9CF9",
+        "color-primary-disabled": "rgba(143, 155, 179, 0.24)",
+        "color-primary-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-primary-focus": "#0A79D6",
+        "color-primary-focus-border": "#075AB3",
+        "color-primary-hover": "#4ABFFB",
+        "color-primary-hover-border": "#4ABFFB",
+        "color-primary-transparent-100": "rgba(15, 156, 249, 0.08)",
+        "color-primary-transparent-200": "rgba(15, 156, 249, 0.16)",
+        "color-primary-transparent-300": "rgba(15, 156, 249, 0.24)",
+        "color-primary-transparent-400": "rgba(15, 156, 249, 0.32)",
+        "color-primary-transparent-500": "rgba(15, 156, 249, 0.4)",
+        "color-primary-transparent-600": "rgba(15, 156, 249, 0.48)",
+        "color-primary-transparent-active": "rgba(15, 156, 249, 0.24)",
+        "color-primary-transparent-active-border": "#0F9CF9",
+        "color-primary-transparent-default": "rgba(15, 156, 249, 0.08)",
+        "color-primary-transparent-default-border": "#0F9CF9",
+        "color-primary-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+        "color-primary-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-primary-transparent-focus": "rgba(15, 156, 249, 0.24)",
+        "color-primary-transparent-focus-border": "#0F9CF9",
+        "color-primary-transparent-hover": "rgba(15, 156, 249, 0.16)",
+        "color-primary-transparent-hover-border": "#0F9CF9",
+        "color-success-100": "#C9F2FA",
+        "color-success-200": "#95E0F5",
+        "color-success-300": "#5DBDE1",
+        "color-success-400": "#3494C4",
+        "color-success-500": "#04619e",
+        "color-success-600": "#024B87",
+        "color-success-700": "#023871",
+        "color-success-800": "#01275B",
+        "color-success-900": "#001C4B",
+        "color-success-active": "#024B87",
+        "color-success-active-border": "#024B87",
+        "color-success-default": "#04619e",
+        "color-success-default-border": "#04619e",
+        "color-success-disabled": "rgba(143, 155, 179, 0.24)",
+        "color-success-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-success-focus": "#024B87",
+        "color-success-focus-border": "#023871",
+        "color-success-hover": "#3494C4",
+        "color-success-hover-border": "#3494C4",
+        "color-success-transparent-100": "rgba(4, 97, 158, 0.08)",
+        "color-success-transparent-200": "rgba(4, 97, 158, 0.16)",
+        "color-success-transparent-300": "rgba(4, 97, 158, 0.24)",
+        "color-success-transparent-400": "rgba(4, 97, 158, 0.32)",
+        "color-success-transparent-500": "rgba(4, 97, 158, 0.4)",
+        "color-success-transparent-600": "rgba(4, 97, 158, 0.48)",
+        "color-success-transparent-active": "rgba(4, 97, 158, 0.24)",
+        "color-success-transparent-active-border": "#04619e",
+        "color-success-transparent-default": "rgba(4, 97, 158, 0.08)",
+        "color-success-transparent-default-border": "#04619e",
+        "color-success-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+        "color-success-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-success-transparent-focus": "rgba(4, 97, 158, 0.24)",
+        "color-success-transparent-focus-border": "#04619e",
+        "color-success-transparent-hover": "rgba(4, 97, 158, 0.16)",
+        "color-success-transparent-hover-border": "#04619e",
+        "color-warning-100": "#FCFDFE",
+        "color-warning-200": "#FAFCFD",
+        "color-warning-300": "#F4F7F9",
+        "color-warning-400": "#EEF1F3",
+        "color-warning-500": "#e5e9ec",
+        "color-warning-600": "#A7B9CA",
+        "color-warning-700": "#738CA9",
+        "color-warning-800": "#496288",
+        "color-warning-900": "#2B4371",
+        "color-warning-active": "#A7B9CA",
+        "color-warning-active-border": "#A7B9CA",
+        "color-warning-default": "#e5e9ec",
+        "color-warning-default-border": "#e5e9ec",
+        "color-warning-disabled": "rgba(143, 155, 179, 0.24)",
+        "color-warning-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-warning-focus": "#A7B9CA",
+        "color-warning-focus-border": "#738CA9",
+        "color-warning-hover": "#EEF1F3",
+        "color-warning-hover-border": "#EEF1F3",
+        "color-warning-transparent-100": "rgba(229, 233, 236, 0.08)",
+        "color-warning-transparent-200": "rgba(229, 233, 236, 0.16)",
+        "color-warning-transparent-300": "rgba(229, 233, 236, 0.24)",
+        "color-warning-transparent-400": "rgba(229, 233, 236, 0.32)",
+        "color-warning-transparent-500": "rgba(229, 233, 236, 0.4)",
+        "color-warning-transparent-600": "rgba(229, 233, 236, 0.48)",
+        "color-warning-transparent-active": "rgba(229, 233, 236, 0.24)",
+        "color-warning-transparent-active-border": "#e5e9ec",
+        "color-warning-transparent-default": "rgba(229, 233, 236, 0.08)",
+        "color-warning-transparent-default-border": "#e5e9ec",
+        "color-warning-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+        "color-warning-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+        "color-warning-transparent-focus": "rgba(229, 233, 236, 0.24)",
+        "color-warning-transparent-focus-border": "#e5e9ec",
+        "color-warning-transparent-hover": "rgba(229, 233, 236, 0.16)",
+        "color-warning-transparent-hover-border": "#e5e9ec",
+        "outline-color": "rgba(143, 155, 179, 0.16)",
+        "text-alternate-color": "#FFFFFF",
+        "text-basic-color": "#222B45",
+        "text-control-color": "#FFFFFF",
+        "text-danger-active-color": "#DBBABD",
+        "text-danger-color": "#ffffff",
+        "text-danger-disabled-color": "#FFFFFF",
+        "text-danger-focus-color": "#DBBABD",
+        "text-danger-hover-color": "#FFFFFF",
+        "text-disabled-color": "rgba(143, 155, 179, 0.48)",
+        "text-hint-color": "#8F9BB3",
+        "text-info-active-color": "#12324C",
+        "text-info-color": "#194059",
+        "text-info-disabled-color": "#477F9B",
+        "text-info-focus-color": "#12324C",
+        "text-info-hover-color": "#477F9B",
+        "text-primary-active-color": "#0A79D6",
+        "text-primary-color": "#0F9CF9",
+        "text-primary-disabled-color": "#4ABFFB",
+        "text-primary-focus-color": "#0A79D6",
+        "text-primary-hover-color": "#4ABFFB",
+        "text-success-active-color": "#024B87",
+        "text-success-color": "#04619e",
+        "text-success-disabled-color": "#3494C4",
+        "text-success-focus-color": "#024B87",
+        "text-success-hover-color": "#3494C4",
+        "text-warning-active-color": "#A7B9CA",
+        "text-warning-color": "#e5e9ec",
+        "text-warning-disabled-color": "#EEF1F3",
+        "text-warning-focus-color": "#A7B9CA",
+        "text-warning-hover-color": "#EEF1F3",
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#F7F9FC",
+              "borderColor": "#E4E9F2",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "captionFontFamily": "System",
+              "labelFontFamily": "System",
+              "minHeight": 40,
+              "paddingHorizontal": 8,
+              "paddingVertical": 7,
+            },
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          appearance="default"
+          dispatch={[Function]}
+          editable={true}
+          icon={[Function]}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          placeholder="Test123@gmail.com"
+          placeholderTextColor="#8F9BB3"
+          rejectResponderTermination={true}
+          size="medium"
+          status="basic"
+          style={
+            Array [
+              Object {
+                "color": "#222B45",
+                "fontFamily": "System",
+                "fontSize": 15,
+                "fontWeight": "normal",
+                "marginHorizontal": 8,
+              },
+              Object {
+                "flexBasis": "auto",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              null,
+              undefined,
+            ]
+          }
+          theme={
+            Object {
+              "background-alternative-color-1": "#222B45",
+              "background-alternative-color-2": "#1A2138",
+              "background-alternative-color-3": "#151A30",
+              "background-alternative-color-4": "#101426",
+              "background-basic-color-1": "#FFFFFF",
+              "background-basic-color-2": "#F7F9FC",
+              "background-basic-color-3": "#EDF1F7",
+              "background-basic-color-4": "#E4E9F2",
+              "border-alternative-color-1": "#222B45",
+              "border-alternative-color-2": "#1A2138",
+              "border-alternative-color-3": "#151A30",
+              "border-alternative-color-4": "#101426",
+              "border-alternative-color-5": "#101426",
+              "border-basic-color-1": "#FFFFFF",
+              "border-basic-color-2": "#F7F9FC",
+              "border-basic-color-3": "#EDF1F7",
+              "border-basic-color-4": "#E4E9F2",
+              "border-basic-color-5": "#C5CEE0",
+              "border-danger-color-1": "#ffffff",
+              "border-danger-color-2": "#DBBABD",
+              "border-danger-color-3": "#B7808A",
+              "border-danger-color-4": "#935162",
+              "border-danger-color-5": "#7A304A",
+              "border-info-color-1": "#194059",
+              "border-info-color-2": "#12324C",
+              "border-info-color-3": "#0C2540",
+              "border-info-color-4": "#071A33",
+              "border-info-color-5": "#04122A",
+              "border-primary-color-1": "#0F9CF9",
+              "border-primary-color-2": "#0A79D6",
+              "border-primary-color-3": "#075AB3",
+              "border-primary-color-4": "#044090",
+              "border-primary-color-5": "#022D77",
+              "border-success-color-1": "#04619e",
+              "border-success-color-2": "#024B87",
+              "border-success-color-3": "#023871",
+              "border-success-color-4": "#01275B",
+              "border-success-color-5": "#001C4B",
+              "border-warning-color-1": "#e5e9ec",
+              "border-warning-color-2": "#A7B9CA",
+              "border-warning-color-3": "#738CA9",
+              "border-warning-color-4": "#496288",
+              "border-warning-color-5": "#2B4371",
+              "color-basic-100": "#FFFFFF",
+              "color-basic-1000": "#151A30",
+              "color-basic-1100": "#101426",
+              "color-basic-200": "#F7F9FC",
+              "color-basic-300": "#EDF1F7",
+              "color-basic-400": "#E4E9F2",
+              "color-basic-500": "#C5CEE0",
+              "color-basic-600": "#8F9BB3",
+              "color-basic-700": "#2E3A59",
+              "color-basic-800": "#222B45",
+              "color-basic-900": "#1A2138",
+              "color-basic-active": "#E4E9F2",
+              "color-basic-active-border": "#E4E9F2",
+              "color-basic-control-transparent-100": "rgba(255, 255, 255, 0.08)",
+              "color-basic-control-transparent-200": "rgba(255, 255, 255, 0.16)",
+              "color-basic-control-transparent-300": "rgba(255, 255, 255, 0.24)",
+              "color-basic-control-transparent-400": "rgba(255, 255, 255, 0.32)",
+              "color-basic-control-transparent-500": "rgba(255, 255, 255, 0.40)",
+              "color-basic-control-transparent-600": "rgba(255, 255, 255, 0.48)",
+              "color-basic-default": "#EDF1F7",
+              "color-basic-default-border": "#EDF1F7",
+              "color-basic-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-basic-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-basic-focus": "#E4E9F2",
+              "color-basic-focus-border": "#C5CEE0",
+              "color-basic-hover": "#F7F9FC",
+              "color-basic-hover-border": "#F7F9FC",
+              "color-basic-transparent-100": "rgba(143, 155, 179, 0.08)",
+              "color-basic-transparent-200": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-300": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-400": "rgba(143, 155, 179, 0.32)",
+              "color-basic-transparent-500": "rgba(143, 155, 179, 0.40)",
+              "color-basic-transparent-600": "rgba(143, 155, 179, 0.48)",
+              "color-basic-transparent-active": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-active-border": "#8F9BB3",
+              "color-basic-transparent-default": "rgba(143, 155, 179, 0.08)",
+              "color-basic-transparent-default-border": "#8F9BB3",
+              "color-basic-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-focus": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-focus-border": "#8F9BB3",
+              "color-basic-transparent-hover": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-hover-border": "#8F9BB3",
+              "color-control-active": "#EDF1F7",
+              "color-control-active-border": "#EDF1F7",
+              "color-control-default": "#FFFFFF",
+              "color-control-default-border": "#FFFFFF",
+              "color-control-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-control-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-control-focus": "#EDF1F7",
+              "color-control-focus-border": "#C5CEE0",
+              "color-control-hover": "#F7F9FC",
+              "color-control-hover-border": "#F7F9FC",
+              "color-control-transparent-active": "rgba(255, 255, 255, 0.24)",
+              "color-control-transparent-active-border": "#FFFFFF",
+              "color-control-transparent-default": "rgba(255, 255, 255, 0.08)",
+              "color-control-transparent-default-border": "#FFFFFF",
+              "color-control-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-control-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-control-transparent-focus": "rgba(255, 255, 255, 0.24)",
+              "color-control-transparent-focus-border": "#FFFFFF",
+              "color-control-transparent-hover": "rgba(255, 255, 255, 0.16)",
+              "color-control-transparent-hover-border": "#FFFFFF",
+              "color-danger-100": "#FFFFFF",
+              "color-danger-200": "#FFFFFF",
+              "color-danger-300": "#FFFFFF",
+              "color-danger-400": "#FFFFFF",
+              "color-danger-500": "#ffffff",
+              "color-danger-600": "#DBBABD",
+              "color-danger-700": "#B7808A",
+              "color-danger-800": "#935162",
+              "color-danger-900": "#7A304A",
+              "color-danger-active": "#DBBABD",
+              "color-danger-active-border": "#DBBABD",
+              "color-danger-default": "#ffffff",
+              "color-danger-default-border": "#ffffff",
+              "color-danger-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-danger-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-danger-focus": "#DBBABD",
+              "color-danger-focus-border": "color-danger-700",
+              "color-danger-hover": "#FFFFFF",
+              "color-danger-hover-border": "#FFFFFF",
+              "color-danger-transparent-100": "rgba(255, 255, 255, 0.08)",
+              "color-danger-transparent-200": "rgba(255, 255, 255, 0.16)",
+              "color-danger-transparent-300": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-400": "rgba(255, 255, 255, 0.32)",
+              "color-danger-transparent-500": "rgba(255, 255, 255, 0.4)",
+              "color-danger-transparent-600": "rgba(255, 255, 255, 0.48)",
+              "color-danger-transparent-active": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-active-border": "#ffffff",
+              "color-danger-transparent-default": "rgba(255, 255, 255, 0.08)",
+              "color-danger-transparent-default-border": "#ffffff",
+              "color-danger-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-danger-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-danger-transparent-focus": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-focus-border": "#ffffff",
+              "color-danger-transparent-hover": "rgba(255, 255, 255, 0.16)",
+              "color-danger-transparent-hover-border": "#ffffff",
+              "color-info-100": "#D3F1F6",
+              "color-info-200": "#A9DFEE",
+              "color-info-300": "#74B5CD",
+              "color-info-400": "#477F9B",
+              "color-info-500": "#194059",
+              "color-info-600": "#12324C",
+              "color-info-700": "#0C2540",
+              "color-info-800": "#071A33",
+              "color-info-900": "#04122A",
+              "color-info-active": "#12324C",
+              "color-info-active-border": "#12324C",
+              "color-info-default": "#194059",
+              "color-info-default-border": "#194059",
+              "color-info-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-info-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-info-focus": "#12324C",
+              "color-info-focus-border": "#0C2540",
+              "color-info-hover": "#477F9B",
+              "color-info-hover-border": "#477F9B",
+              "color-info-transparent-100": "rgba(25, 64, 89, 0.08)",
+              "color-info-transparent-200": "rgba(25, 64, 89, 0.16)",
+              "color-info-transparent-300": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-400": "rgba(25, 64, 89, 0.32)",
+              "color-info-transparent-500": "rgba(25, 64, 89, 0.4)",
+              "color-info-transparent-600": "rgba(25, 64, 89, 0.48)",
+              "color-info-transparent-active": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-active-border": "#194059",
+              "color-info-transparent-default": "rgba(25, 64, 89, 0.08)",
+              "color-info-transparent-default-border": "#194059",
+              "color-info-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-info-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-info-transparent-focus": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-focus-border": "#194059",
+              "color-info-transparent-hover": "rgba(25, 64, 89, 0.16)",
+              "color-info-transparent-hover-border": "#194059",
+              "color-primary-100": "#CEF6FE",
+              "color-primary-200": "#9EE9FE",
+              "color-primary-300": "#6ED5FD",
+              "color-primary-400": "#4ABFFB",
+              "color-primary-500": "#0F9CF9",
+              "color-primary-600": "#0A79D6",
+              "color-primary-700": "#075AB3",
+              "color-primary-800": "#044090",
+              "color-primary-900": "#022D77",
+              "color-primary-active": "#0A79D6",
+              "color-primary-active-border": "#0A79D6",
+              "color-primary-default": "#0F9CF9",
+              "color-primary-default-border": "#0F9CF9",
+              "color-primary-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-primary-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-primary-focus": "#0A79D6",
+              "color-primary-focus-border": "#075AB3",
+              "color-primary-hover": "#4ABFFB",
+              "color-primary-hover-border": "#4ABFFB",
+              "color-primary-transparent-100": "rgba(15, 156, 249, 0.08)",
+              "color-primary-transparent-200": "rgba(15, 156, 249, 0.16)",
+              "color-primary-transparent-300": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-400": "rgba(15, 156, 249, 0.32)",
+              "color-primary-transparent-500": "rgba(15, 156, 249, 0.4)",
+              "color-primary-transparent-600": "rgba(15, 156, 249, 0.48)",
+              "color-primary-transparent-active": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-active-border": "#0F9CF9",
+              "color-primary-transparent-default": "rgba(15, 156, 249, 0.08)",
+              "color-primary-transparent-default-border": "#0F9CF9",
+              "color-primary-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-primary-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-primary-transparent-focus": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-focus-border": "#0F9CF9",
+              "color-primary-transparent-hover": "rgba(15, 156, 249, 0.16)",
+              "color-primary-transparent-hover-border": "#0F9CF9",
+              "color-success-100": "#C9F2FA",
+              "color-success-200": "#95E0F5",
+              "color-success-300": "#5DBDE1",
+              "color-success-400": "#3494C4",
+              "color-success-500": "#04619e",
+              "color-success-600": "#024B87",
+              "color-success-700": "#023871",
+              "color-success-800": "#01275B",
+              "color-success-900": "#001C4B",
+              "color-success-active": "#024B87",
+              "color-success-active-border": "#024B87",
+              "color-success-default": "#04619e",
+              "color-success-default-border": "#04619e",
+              "color-success-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-success-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-success-focus": "#024B87",
+              "color-success-focus-border": "#023871",
+              "color-success-hover": "#3494C4",
+              "color-success-hover-border": "#3494C4",
+              "color-success-transparent-100": "rgba(4, 97, 158, 0.08)",
+              "color-success-transparent-200": "rgba(4, 97, 158, 0.16)",
+              "color-success-transparent-300": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-400": "rgba(4, 97, 158, 0.32)",
+              "color-success-transparent-500": "rgba(4, 97, 158, 0.4)",
+              "color-success-transparent-600": "rgba(4, 97, 158, 0.48)",
+              "color-success-transparent-active": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-active-border": "#04619e",
+              "color-success-transparent-default": "rgba(4, 97, 158, 0.08)",
+              "color-success-transparent-default-border": "#04619e",
+              "color-success-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-success-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-success-transparent-focus": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-focus-border": "#04619e",
+              "color-success-transparent-hover": "rgba(4, 97, 158, 0.16)",
+              "color-success-transparent-hover-border": "#04619e",
+              "color-warning-100": "#FCFDFE",
+              "color-warning-200": "#FAFCFD",
+              "color-warning-300": "#F4F7F9",
+              "color-warning-400": "#EEF1F3",
+              "color-warning-500": "#e5e9ec",
+              "color-warning-600": "#A7B9CA",
+              "color-warning-700": "#738CA9",
+              "color-warning-800": "#496288",
+              "color-warning-900": "#2B4371",
+              "color-warning-active": "#A7B9CA",
+              "color-warning-active-border": "#A7B9CA",
+              "color-warning-default": "#e5e9ec",
+              "color-warning-default-border": "#e5e9ec",
+              "color-warning-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-warning-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-warning-focus": "#A7B9CA",
+              "color-warning-focus-border": "#738CA9",
+              "color-warning-hover": "#EEF1F3",
+              "color-warning-hover-border": "#EEF1F3",
+              "color-warning-transparent-100": "rgba(229, 233, 236, 0.08)",
+              "color-warning-transparent-200": "rgba(229, 233, 236, 0.16)",
+              "color-warning-transparent-300": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-400": "rgba(229, 233, 236, 0.32)",
+              "color-warning-transparent-500": "rgba(229, 233, 236, 0.4)",
+              "color-warning-transparent-600": "rgba(229, 233, 236, 0.48)",
+              "color-warning-transparent-active": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-active-border": "#e5e9ec",
+              "color-warning-transparent-default": "rgba(229, 233, 236, 0.08)",
+              "color-warning-transparent-default-border": "#e5e9ec",
+              "color-warning-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-warning-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-warning-transparent-focus": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-focus-border": "#e5e9ec",
+              "color-warning-transparent-hover": "rgba(229, 233, 236, 0.16)",
+              "color-warning-transparent-hover-border": "#e5e9ec",
+              "outline-color": "rgba(143, 155, 179, 0.16)",
+              "text-alternate-color": "#FFFFFF",
+              "text-basic-color": "#222B45",
+              "text-control-color": "#FFFFFF",
+              "text-danger-active-color": "#DBBABD",
+              "text-danger-color": "#ffffff",
+              "text-danger-disabled-color": "#FFFFFF",
+              "text-danger-focus-color": "#DBBABD",
+              "text-danger-hover-color": "#FFFFFF",
+              "text-disabled-color": "rgba(143, 155, 179, 0.48)",
+              "text-hint-color": "#8F9BB3",
+              "text-info-active-color": "#12324C",
+              "text-info-color": "#194059",
+              "text-info-disabled-color": "#477F9B",
+              "text-info-focus-color": "#12324C",
+              "text-info-hover-color": "#477F9B",
+              "text-primary-active-color": "#0A79D6",
+              "text-primary-color": "#0F9CF9",
+              "text-primary-disabled-color": "#4ABFFB",
+              "text-primary-focus-color": "#0A79D6",
+              "text-primary-hover-color": "#4ABFFB",
+              "text-success-active-color": "#024B87",
+              "text-success-color": "#04619e",
+              "text-success-disabled-color": "#3494C4",
+              "text-success-focus-color": "#024B87",
+              "text-success-hover-color": "#3494C4",
+              "text-warning-active-color": "#A7B9CA",
+              "text-warning-color": "#e5e9ec",
+              "text-warning-disabled-color": "#EEF1F3",
+              "text-warning-focus-color": "#A7B9CA",
+              "text-warning-hover-color": "#EEF1F3",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+        <View
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+            }
+          }
+        >
+          <RNSVGSvgView
+            accessible={true}
+            align="xMidYMid"
+            animation="zoom"
+            bbHeight={24}
+            bbWidth={24}
+            fill="#8F9BB3"
+            focusable={true}
+            height={24}
+            marginHorizontal={8}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            responsible={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Array [
+                  Object {
+                    "height": 24,
+                    "marginHorizontal": 8,
+                    "tintColor": "#8F9BB3",
+                    "width": 24,
+                  },
+                  undefined,
+                ],
+                Object {
+                  "opacity": 1,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 24,
+                  "width": 24,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={24}
+            width={24}
+          >
+            <RNSVGGroup
+              fill={
+                Array [
+                  0,
+                  4287601587,
+                ]
+              }
+              fillOpacity={1}
+              fillRule={1}
+              font={Object {}}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              opacity={1}
+              originX={0}
+              originY={0}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotation={0}
+              scaleX={1}
+              scaleY={1}
+              skewX={0}
+              skewY={0}
+              stroke={null}
+              strokeDasharray={null}
+              strokeDashoffset={null}
+              strokeLinecap={0}
+              strokeLinejoin={0}
+              strokeMiterlimit={4}
+              strokeOpacity={1}
+              strokeWidth={1}
+              vectorEffect={0}
+              x={0}
+              y={0}
+            >
+              <RNSVGGroup
+                fill={
+                  Array [
+                    0,
+                    4278190080,
+                  ]
+                }
+                fillOpacity={1}
+                fillRule={1}
+                font={Object {}}
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                  ]
+                }
+                opacity={1}
+                originX={0}
+                originY={0}
+                propList={Array []}
+                rotation={0}
+                scaleX={1}
+                scaleY={1}
+                skewX={0}
+                skewY={0}
+                stroke={null}
+                strokeDasharray={null}
+                strokeDashoffset={null}
+                strokeLinecap={0}
+                strokeLinejoin={0}
+                strokeMiterlimit={4}
+                strokeOpacity={1}
+                strokeWidth={1}
+                vectorEffect={0}
+                x={0}
+                y={0}
+              >
+                <RNSVGGroup
+                  fill={
+                    Array [
+                      0,
+                      4278190080,
+                    ]
+                  }
+                  fillOpacity={1}
+                  fillRule={1}
+                  font={Object {}}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={Array []}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                >
+                  <RNSVGRect
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    height="24"
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={0}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    width="24"
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGPath
+                    d="M12 11a4 4 0 1 0-4-4 4 4 0 0 0 4 4z"
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGPath
+                    d="M18 21a1 1 0 0 0 1-1 7 7 0 0 0-14 0 1 1 0 0 0 1 1z"
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    x={0}
+                    y={0}
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 4,
+            },
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#F7F9FC",
+              "borderColor": "#E4E9F2",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "captionFontFamily": "System",
+              "labelFontFamily": "System",
+              "minHeight": 40,
+              "paddingHorizontal": 8,
+              "paddingVertical": 7,
+            },
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          appearance="default"
+          dispatch={[Function]}
+          editable={true}
+          icon={[Function]}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onIconPress={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          placeholder="Password"
+          placeholderTextColor="#8F9BB3"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          size="medium"
+          status="basic"
+          style={
+            Array [
+              Object {
+                "color": "#222B45",
+                "fontFamily": "System",
+                "fontSize": 15,
+                "fontWeight": "normal",
+                "marginHorizontal": 8,
+              },
+              Object {
+                "flexBasis": "auto",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              null,
+              undefined,
+            ]
+          }
+          theme={
+            Object {
+              "background-alternative-color-1": "#222B45",
+              "background-alternative-color-2": "#1A2138",
+              "background-alternative-color-3": "#151A30",
+              "background-alternative-color-4": "#101426",
+              "background-basic-color-1": "#FFFFFF",
+              "background-basic-color-2": "#F7F9FC",
+              "background-basic-color-3": "#EDF1F7",
+              "background-basic-color-4": "#E4E9F2",
+              "border-alternative-color-1": "#222B45",
+              "border-alternative-color-2": "#1A2138",
+              "border-alternative-color-3": "#151A30",
+              "border-alternative-color-4": "#101426",
+              "border-alternative-color-5": "#101426",
+              "border-basic-color-1": "#FFFFFF",
+              "border-basic-color-2": "#F7F9FC",
+              "border-basic-color-3": "#EDF1F7",
+              "border-basic-color-4": "#E4E9F2",
+              "border-basic-color-5": "#C5CEE0",
+              "border-danger-color-1": "#ffffff",
+              "border-danger-color-2": "#DBBABD",
+              "border-danger-color-3": "#B7808A",
+              "border-danger-color-4": "#935162",
+              "border-danger-color-5": "#7A304A",
+              "border-info-color-1": "#194059",
+              "border-info-color-2": "#12324C",
+              "border-info-color-3": "#0C2540",
+              "border-info-color-4": "#071A33",
+              "border-info-color-5": "#04122A",
+              "border-primary-color-1": "#0F9CF9",
+              "border-primary-color-2": "#0A79D6",
+              "border-primary-color-3": "#075AB3",
+              "border-primary-color-4": "#044090",
+              "border-primary-color-5": "#022D77",
+              "border-success-color-1": "#04619e",
+              "border-success-color-2": "#024B87",
+              "border-success-color-3": "#023871",
+              "border-success-color-4": "#01275B",
+              "border-success-color-5": "#001C4B",
+              "border-warning-color-1": "#e5e9ec",
+              "border-warning-color-2": "#A7B9CA",
+              "border-warning-color-3": "#738CA9",
+              "border-warning-color-4": "#496288",
+              "border-warning-color-5": "#2B4371",
+              "color-basic-100": "#FFFFFF",
+              "color-basic-1000": "#151A30",
+              "color-basic-1100": "#101426",
+              "color-basic-200": "#F7F9FC",
+              "color-basic-300": "#EDF1F7",
+              "color-basic-400": "#E4E9F2",
+              "color-basic-500": "#C5CEE0",
+              "color-basic-600": "#8F9BB3",
+              "color-basic-700": "#2E3A59",
+              "color-basic-800": "#222B45",
+              "color-basic-900": "#1A2138",
+              "color-basic-active": "#E4E9F2",
+              "color-basic-active-border": "#E4E9F2",
+              "color-basic-control-transparent-100": "rgba(255, 255, 255, 0.08)",
+              "color-basic-control-transparent-200": "rgba(255, 255, 255, 0.16)",
+              "color-basic-control-transparent-300": "rgba(255, 255, 255, 0.24)",
+              "color-basic-control-transparent-400": "rgba(255, 255, 255, 0.32)",
+              "color-basic-control-transparent-500": "rgba(255, 255, 255, 0.40)",
+              "color-basic-control-transparent-600": "rgba(255, 255, 255, 0.48)",
+              "color-basic-default": "#EDF1F7",
+              "color-basic-default-border": "#EDF1F7",
+              "color-basic-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-basic-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-basic-focus": "#E4E9F2",
+              "color-basic-focus-border": "#C5CEE0",
+              "color-basic-hover": "#F7F9FC",
+              "color-basic-hover-border": "#F7F9FC",
+              "color-basic-transparent-100": "rgba(143, 155, 179, 0.08)",
+              "color-basic-transparent-200": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-300": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-400": "rgba(143, 155, 179, 0.32)",
+              "color-basic-transparent-500": "rgba(143, 155, 179, 0.40)",
+              "color-basic-transparent-600": "rgba(143, 155, 179, 0.48)",
+              "color-basic-transparent-active": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-active-border": "#8F9BB3",
+              "color-basic-transparent-default": "rgba(143, 155, 179, 0.08)",
+              "color-basic-transparent-default-border": "#8F9BB3",
+              "color-basic-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-focus": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-focus-border": "#8F9BB3",
+              "color-basic-transparent-hover": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-hover-border": "#8F9BB3",
+              "color-control-active": "#EDF1F7",
+              "color-control-active-border": "#EDF1F7",
+              "color-control-default": "#FFFFFF",
+              "color-control-default-border": "#FFFFFF",
+              "color-control-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-control-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-control-focus": "#EDF1F7",
+              "color-control-focus-border": "#C5CEE0",
+              "color-control-hover": "#F7F9FC",
+              "color-control-hover-border": "#F7F9FC",
+              "color-control-transparent-active": "rgba(255, 255, 255, 0.24)",
+              "color-control-transparent-active-border": "#FFFFFF",
+              "color-control-transparent-default": "rgba(255, 255, 255, 0.08)",
+              "color-control-transparent-default-border": "#FFFFFF",
+              "color-control-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-control-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-control-transparent-focus": "rgba(255, 255, 255, 0.24)",
+              "color-control-transparent-focus-border": "#FFFFFF",
+              "color-control-transparent-hover": "rgba(255, 255, 255, 0.16)",
+              "color-control-transparent-hover-border": "#FFFFFF",
+              "color-danger-100": "#FFFFFF",
+              "color-danger-200": "#FFFFFF",
+              "color-danger-300": "#FFFFFF",
+              "color-danger-400": "#FFFFFF",
+              "color-danger-500": "#ffffff",
+              "color-danger-600": "#DBBABD",
+              "color-danger-700": "#B7808A",
+              "color-danger-800": "#935162",
+              "color-danger-900": "#7A304A",
+              "color-danger-active": "#DBBABD",
+              "color-danger-active-border": "#DBBABD",
+              "color-danger-default": "#ffffff",
+              "color-danger-default-border": "#ffffff",
+              "color-danger-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-danger-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-danger-focus": "#DBBABD",
+              "color-danger-focus-border": "color-danger-700",
+              "color-danger-hover": "#FFFFFF",
+              "color-danger-hover-border": "#FFFFFF",
+              "color-danger-transparent-100": "rgba(255, 255, 255, 0.08)",
+              "color-danger-transparent-200": "rgba(255, 255, 255, 0.16)",
+              "color-danger-transparent-300": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-400": "rgba(255, 255, 255, 0.32)",
+              "color-danger-transparent-500": "rgba(255, 255, 255, 0.4)",
+              "color-danger-transparent-600": "rgba(255, 255, 255, 0.48)",
+              "color-danger-transparent-active": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-active-border": "#ffffff",
+              "color-danger-transparent-default": "rgba(255, 255, 255, 0.08)",
+              "color-danger-transparent-default-border": "#ffffff",
+              "color-danger-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-danger-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-danger-transparent-focus": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-focus-border": "#ffffff",
+              "color-danger-transparent-hover": "rgba(255, 255, 255, 0.16)",
+              "color-danger-transparent-hover-border": "#ffffff",
+              "color-info-100": "#D3F1F6",
+              "color-info-200": "#A9DFEE",
+              "color-info-300": "#74B5CD",
+              "color-info-400": "#477F9B",
+              "color-info-500": "#194059",
+              "color-info-600": "#12324C",
+              "color-info-700": "#0C2540",
+              "color-info-800": "#071A33",
+              "color-info-900": "#04122A",
+              "color-info-active": "#12324C",
+              "color-info-active-border": "#12324C",
+              "color-info-default": "#194059",
+              "color-info-default-border": "#194059",
+              "color-info-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-info-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-info-focus": "#12324C",
+              "color-info-focus-border": "#0C2540",
+              "color-info-hover": "#477F9B",
+              "color-info-hover-border": "#477F9B",
+              "color-info-transparent-100": "rgba(25, 64, 89, 0.08)",
+              "color-info-transparent-200": "rgba(25, 64, 89, 0.16)",
+              "color-info-transparent-300": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-400": "rgba(25, 64, 89, 0.32)",
+              "color-info-transparent-500": "rgba(25, 64, 89, 0.4)",
+              "color-info-transparent-600": "rgba(25, 64, 89, 0.48)",
+              "color-info-transparent-active": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-active-border": "#194059",
+              "color-info-transparent-default": "rgba(25, 64, 89, 0.08)",
+              "color-info-transparent-default-border": "#194059",
+              "color-info-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-info-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-info-transparent-focus": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-focus-border": "#194059",
+              "color-info-transparent-hover": "rgba(25, 64, 89, 0.16)",
+              "color-info-transparent-hover-border": "#194059",
+              "color-primary-100": "#CEF6FE",
+              "color-primary-200": "#9EE9FE",
+              "color-primary-300": "#6ED5FD",
+              "color-primary-400": "#4ABFFB",
+              "color-primary-500": "#0F9CF9",
+              "color-primary-600": "#0A79D6",
+              "color-primary-700": "#075AB3",
+              "color-primary-800": "#044090",
+              "color-primary-900": "#022D77",
+              "color-primary-active": "#0A79D6",
+              "color-primary-active-border": "#0A79D6",
+              "color-primary-default": "#0F9CF9",
+              "color-primary-default-border": "#0F9CF9",
+              "color-primary-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-primary-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-primary-focus": "#0A79D6",
+              "color-primary-focus-border": "#075AB3",
+              "color-primary-hover": "#4ABFFB",
+              "color-primary-hover-border": "#4ABFFB",
+              "color-primary-transparent-100": "rgba(15, 156, 249, 0.08)",
+              "color-primary-transparent-200": "rgba(15, 156, 249, 0.16)",
+              "color-primary-transparent-300": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-400": "rgba(15, 156, 249, 0.32)",
+              "color-primary-transparent-500": "rgba(15, 156, 249, 0.4)",
+              "color-primary-transparent-600": "rgba(15, 156, 249, 0.48)",
+              "color-primary-transparent-active": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-active-border": "#0F9CF9",
+              "color-primary-transparent-default": "rgba(15, 156, 249, 0.08)",
+              "color-primary-transparent-default-border": "#0F9CF9",
+              "color-primary-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-primary-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-primary-transparent-focus": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-focus-border": "#0F9CF9",
+              "color-primary-transparent-hover": "rgba(15, 156, 249, 0.16)",
+              "color-primary-transparent-hover-border": "#0F9CF9",
+              "color-success-100": "#C9F2FA",
+              "color-success-200": "#95E0F5",
+              "color-success-300": "#5DBDE1",
+              "color-success-400": "#3494C4",
+              "color-success-500": "#04619e",
+              "color-success-600": "#024B87",
+              "color-success-700": "#023871",
+              "color-success-800": "#01275B",
+              "color-success-900": "#001C4B",
+              "color-success-active": "#024B87",
+              "color-success-active-border": "#024B87",
+              "color-success-default": "#04619e",
+              "color-success-default-border": "#04619e",
+              "color-success-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-success-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-success-focus": "#024B87",
+              "color-success-focus-border": "#023871",
+              "color-success-hover": "#3494C4",
+              "color-success-hover-border": "#3494C4",
+              "color-success-transparent-100": "rgba(4, 97, 158, 0.08)",
+              "color-success-transparent-200": "rgba(4, 97, 158, 0.16)",
+              "color-success-transparent-300": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-400": "rgba(4, 97, 158, 0.32)",
+              "color-success-transparent-500": "rgba(4, 97, 158, 0.4)",
+              "color-success-transparent-600": "rgba(4, 97, 158, 0.48)",
+              "color-success-transparent-active": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-active-border": "#04619e",
+              "color-success-transparent-default": "rgba(4, 97, 158, 0.08)",
+              "color-success-transparent-default-border": "#04619e",
+              "color-success-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-success-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-success-transparent-focus": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-focus-border": "#04619e",
+              "color-success-transparent-hover": "rgba(4, 97, 158, 0.16)",
+              "color-success-transparent-hover-border": "#04619e",
+              "color-warning-100": "#FCFDFE",
+              "color-warning-200": "#FAFCFD",
+              "color-warning-300": "#F4F7F9",
+              "color-warning-400": "#EEF1F3",
+              "color-warning-500": "#e5e9ec",
+              "color-warning-600": "#A7B9CA",
+              "color-warning-700": "#738CA9",
+              "color-warning-800": "#496288",
+              "color-warning-900": "#2B4371",
+              "color-warning-active": "#A7B9CA",
+              "color-warning-active-border": "#A7B9CA",
+              "color-warning-default": "#e5e9ec",
+              "color-warning-default-border": "#e5e9ec",
+              "color-warning-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-warning-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-warning-focus": "#A7B9CA",
+              "color-warning-focus-border": "#738CA9",
+              "color-warning-hover": "#EEF1F3",
+              "color-warning-hover-border": "#EEF1F3",
+              "color-warning-transparent-100": "rgba(229, 233, 236, 0.08)",
+              "color-warning-transparent-200": "rgba(229, 233, 236, 0.16)",
+              "color-warning-transparent-300": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-400": "rgba(229, 233, 236, 0.32)",
+              "color-warning-transparent-500": "rgba(229, 233, 236, 0.4)",
+              "color-warning-transparent-600": "rgba(229, 233, 236, 0.48)",
+              "color-warning-transparent-active": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-active-border": "#e5e9ec",
+              "color-warning-transparent-default": "rgba(229, 233, 236, 0.08)",
+              "color-warning-transparent-default-border": "#e5e9ec",
+              "color-warning-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-warning-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-warning-transparent-focus": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-focus-border": "#e5e9ec",
+              "color-warning-transparent-hover": "rgba(229, 233, 236, 0.16)",
+              "color-warning-transparent-hover-border": "#e5e9ec",
+              "outline-color": "rgba(143, 155, 179, 0.16)",
+              "text-alternate-color": "#FFFFFF",
+              "text-basic-color": "#222B45",
+              "text-control-color": "#FFFFFF",
+              "text-danger-active-color": "#DBBABD",
+              "text-danger-color": "#ffffff",
+              "text-danger-disabled-color": "#FFFFFF",
+              "text-danger-focus-color": "#DBBABD",
+              "text-danger-hover-color": "#FFFFFF",
+              "text-disabled-color": "rgba(143, 155, 179, 0.48)",
+              "text-hint-color": "#8F9BB3",
+              "text-info-active-color": "#12324C",
+              "text-info-color": "#194059",
+              "text-info-disabled-color": "#477F9B",
+              "text-info-focus-color": "#12324C",
+              "text-info-hover-color": "#477F9B",
+              "text-primary-active-color": "#0A79D6",
+              "text-primary-color": "#0F9CF9",
+              "text-primary-disabled-color": "#4ABFFB",
+              "text-primary-focus-color": "#0A79D6",
+              "text-primary-hover-color": "#4ABFFB",
+              "text-success-active-color": "#024B87",
+              "text-success-color": "#04619e",
+              "text-success-disabled-color": "#3494C4",
+              "text-success-focus-color": "#024B87",
+              "text-success-hover-color": "#3494C4",
+              "text-warning-active-color": "#A7B9CA",
+              "text-warning-color": "#e5e9ec",
+              "text-warning-disabled-color": "#EEF1F3",
+              "text-warning-focus-color": "#A7B9CA",
+              "text-warning-hover-color": "#EEF1F3",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+        <View
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+            }
+          }
+        >
+          <RNSVGSvgView
+            accessible={true}
+            align="xMidYMid"
+            animation="zoom"
+            bbHeight={24}
+            bbWidth={24}
+            fill="#8F9BB3"
+            focusable={true}
+            height={24}
+            marginHorizontal={8}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            responsible={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Array [
+                  Object {
+                    "height": 24,
+                    "marginHorizontal": 8,
+                    "tintColor": "#8F9BB3",
+                    "width": 24,
+                  },
+                  undefined,
+                ],
+                Object {
+                  "opacity": 1,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 24,
+                  "width": 24,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={24}
+            width={24}
+          >
+            <RNSVGGroup
+              fill={
+                Array [
+                  0,
+                  4287601587,
+                ]
+              }
+              fillOpacity={1}
+              fillRule={1}
+              font={Object {}}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              opacity={1}
+              originX={0}
+              originY={0}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotation={0}
+              scaleX={1}
+              scaleY={1}
+              skewX={0}
+              skewY={0}
+              stroke={null}
+              strokeDasharray={null}
+              strokeDashoffset={null}
+              strokeLinecap={0}
+              strokeLinejoin={0}
+              strokeMiterlimit={4}
+              strokeOpacity={1}
+              strokeWidth={1}
+              vectorEffect={0}
+              x={0}
+              y={0}
+            >
+              <RNSVGGroup
+                fill={
+                  Array [
+                    0,
+                    4278190080,
+                  ]
+                }
+                fillOpacity={1}
+                fillRule={1}
+                font={Object {}}
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                  ]
+                }
+                opacity={1}
+                originX={0}
+                originY={0}
+                propList={Array []}
+                rotation={0}
+                scaleX={1}
+                scaleY={1}
+                skewX={0}
+                skewY={0}
+                stroke={null}
+                strokeDasharray={null}
+                strokeDashoffset={null}
+                strokeLinecap={0}
+                strokeLinejoin={0}
+                strokeMiterlimit={4}
+                strokeOpacity={1}
+                strokeWidth={1}
+                vectorEffect={0}
+                x={0}
+                y={0}
+              >
+                <RNSVGGroup
+                  fill={
+                    Array [
+                      0,
+                      4278190080,
+                    ]
+                  }
+                  fillOpacity={1}
+                  fillRule={1}
+                  font={Object {}}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={Array []}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                >
+                  <RNSVGRect
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    height="24"
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={0}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    width="24"
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGCircle
+                    cx="12"
+                    cy="12"
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    r="1.5"
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGPath
+                    d="M15.29 18.12L14 16.78l-.07-.07-1.27-1.27a4.07 4.07 0 0 1-.61.06A3.5 3.5 0 0 1 8.5 12a4.07 4.07 0 0 1 .06-.61l-2-2L5 7.87a15.89 15.89 0 0 0-2.87 3.63 1 1 0 0 0 0 1c.63 1.09 4 6.5 9.89 6.5h.25a9.48 9.48 0 0 0 3.23-.67z"
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGPath
+                    d="M8.59 5.76l2.8 2.8A4.07 4.07 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 4.07 4.07 0 0 1-.06.61l2.68 2.68.84.84a15.89 15.89 0 0 0 2.91-3.63 1 1 0 0 0 0-1c-.64-1.11-4.16-6.68-10.14-6.5a9.48 9.48 0 0 0-3.23.67z"
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGPath
+                    d="M20.71 19.29L19.41 18l-2-2-9.52-9.53L6.42 5 4.71 3.29a1 1 0 0 0-1.42 1.42L5.53 7l1.75 1.7 7.31 7.3.07.07L16 17.41l.59.59 2.7 2.71a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"
+                    fill={
+                      Array [
+                        0,
+                        4278190080,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={1}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={Array []}
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    x={0}
+                    y={0}
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 4,
+            },
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "minHeight": 40,
+            "minWidth": 40,
+            "opacity": 1,
+            "paddingHorizontal": 0,
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <Text
+          appearance="default"
+          category="p1"
+          dispatch={[Function]}
+          style={
+            Array [
+              Object {
+                "color": "#222B45",
+                "fontFamily": "System",
+                "fontSize": 15,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              Array [
+                Object {
+                  "color": "#8F9BB3",
+                  "fontFamily": "System",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "lineHeight": 16,
+                  "marginHorizontal": 10,
+                },
+                Object {},
+                undefined,
+              ],
+            ]
+          }
+          theme={
+            Object {
+              "background-alternative-color-1": "#222B45",
+              "background-alternative-color-2": "#1A2138",
+              "background-alternative-color-3": "#151A30",
+              "background-alternative-color-4": "#101426",
+              "background-basic-color-1": "#FFFFFF",
+              "background-basic-color-2": "#F7F9FC",
+              "background-basic-color-3": "#EDF1F7",
+              "background-basic-color-4": "#E4E9F2",
+              "border-alternative-color-1": "#222B45",
+              "border-alternative-color-2": "#1A2138",
+              "border-alternative-color-3": "#151A30",
+              "border-alternative-color-4": "#101426",
+              "border-alternative-color-5": "#101426",
+              "border-basic-color-1": "#FFFFFF",
+              "border-basic-color-2": "#F7F9FC",
+              "border-basic-color-3": "#EDF1F7",
+              "border-basic-color-4": "#E4E9F2",
+              "border-basic-color-5": "#C5CEE0",
+              "border-danger-color-1": "#ffffff",
+              "border-danger-color-2": "#DBBABD",
+              "border-danger-color-3": "#B7808A",
+              "border-danger-color-4": "#935162",
+              "border-danger-color-5": "#7A304A",
+              "border-info-color-1": "#194059",
+              "border-info-color-2": "#12324C",
+              "border-info-color-3": "#0C2540",
+              "border-info-color-4": "#071A33",
+              "border-info-color-5": "#04122A",
+              "border-primary-color-1": "#0F9CF9",
+              "border-primary-color-2": "#0A79D6",
+              "border-primary-color-3": "#075AB3",
+              "border-primary-color-4": "#044090",
+              "border-primary-color-5": "#022D77",
+              "border-success-color-1": "#04619e",
+              "border-success-color-2": "#024B87",
+              "border-success-color-3": "#023871",
+              "border-success-color-4": "#01275B",
+              "border-success-color-5": "#001C4B",
+              "border-warning-color-1": "#e5e9ec",
+              "border-warning-color-2": "#A7B9CA",
+              "border-warning-color-3": "#738CA9",
+              "border-warning-color-4": "#496288",
+              "border-warning-color-5": "#2B4371",
+              "color-basic-100": "#FFFFFF",
+              "color-basic-1000": "#151A30",
+              "color-basic-1100": "#101426",
+              "color-basic-200": "#F7F9FC",
+              "color-basic-300": "#EDF1F7",
+              "color-basic-400": "#E4E9F2",
+              "color-basic-500": "#C5CEE0",
+              "color-basic-600": "#8F9BB3",
+              "color-basic-700": "#2E3A59",
+              "color-basic-800": "#222B45",
+              "color-basic-900": "#1A2138",
+              "color-basic-active": "#E4E9F2",
+              "color-basic-active-border": "#E4E9F2",
+              "color-basic-control-transparent-100": "rgba(255, 255, 255, 0.08)",
+              "color-basic-control-transparent-200": "rgba(255, 255, 255, 0.16)",
+              "color-basic-control-transparent-300": "rgba(255, 255, 255, 0.24)",
+              "color-basic-control-transparent-400": "rgba(255, 255, 255, 0.32)",
+              "color-basic-control-transparent-500": "rgba(255, 255, 255, 0.40)",
+              "color-basic-control-transparent-600": "rgba(255, 255, 255, 0.48)",
+              "color-basic-default": "#EDF1F7",
+              "color-basic-default-border": "#EDF1F7",
+              "color-basic-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-basic-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-basic-focus": "#E4E9F2",
+              "color-basic-focus-border": "#C5CEE0",
+              "color-basic-hover": "#F7F9FC",
+              "color-basic-hover-border": "#F7F9FC",
+              "color-basic-transparent-100": "rgba(143, 155, 179, 0.08)",
+              "color-basic-transparent-200": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-300": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-400": "rgba(143, 155, 179, 0.32)",
+              "color-basic-transparent-500": "rgba(143, 155, 179, 0.40)",
+              "color-basic-transparent-600": "rgba(143, 155, 179, 0.48)",
+              "color-basic-transparent-active": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-active-border": "#8F9BB3",
+              "color-basic-transparent-default": "rgba(143, 155, 179, 0.08)",
+              "color-basic-transparent-default-border": "#8F9BB3",
+              "color-basic-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-focus": "rgba(143, 155, 179, 0.24)",
+              "color-basic-transparent-focus-border": "#8F9BB3",
+              "color-basic-transparent-hover": "rgba(143, 155, 179, 0.16)",
+              "color-basic-transparent-hover-border": "#8F9BB3",
+              "color-control-active": "#EDF1F7",
+              "color-control-active-border": "#EDF1F7",
+              "color-control-default": "#FFFFFF",
+              "color-control-default-border": "#FFFFFF",
+              "color-control-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-control-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-control-focus": "#EDF1F7",
+              "color-control-focus-border": "#C5CEE0",
+              "color-control-hover": "#F7F9FC",
+              "color-control-hover-border": "#F7F9FC",
+              "color-control-transparent-active": "rgba(255, 255, 255, 0.24)",
+              "color-control-transparent-active-border": "#FFFFFF",
+              "color-control-transparent-default": "rgba(255, 255, 255, 0.08)",
+              "color-control-transparent-default-border": "#FFFFFF",
+              "color-control-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-control-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-control-transparent-focus": "rgba(255, 255, 255, 0.24)",
+              "color-control-transparent-focus-border": "#FFFFFF",
+              "color-control-transparent-hover": "rgba(255, 255, 255, 0.16)",
+              "color-control-transparent-hover-border": "#FFFFFF",
+              "color-danger-100": "#FFFFFF",
+              "color-danger-200": "#FFFFFF",
+              "color-danger-300": "#FFFFFF",
+              "color-danger-400": "#FFFFFF",
+              "color-danger-500": "#ffffff",
+              "color-danger-600": "#DBBABD",
+              "color-danger-700": "#B7808A",
+              "color-danger-800": "#935162",
+              "color-danger-900": "#7A304A",
+              "color-danger-active": "#DBBABD",
+              "color-danger-active-border": "#DBBABD",
+              "color-danger-default": "#ffffff",
+              "color-danger-default-border": "#ffffff",
+              "color-danger-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-danger-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-danger-focus": "#DBBABD",
+              "color-danger-focus-border": "color-danger-700",
+              "color-danger-hover": "#FFFFFF",
+              "color-danger-hover-border": "#FFFFFF",
+              "color-danger-transparent-100": "rgba(255, 255, 255, 0.08)",
+              "color-danger-transparent-200": "rgba(255, 255, 255, 0.16)",
+              "color-danger-transparent-300": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-400": "rgba(255, 255, 255, 0.32)",
+              "color-danger-transparent-500": "rgba(255, 255, 255, 0.4)",
+              "color-danger-transparent-600": "rgba(255, 255, 255, 0.48)",
+              "color-danger-transparent-active": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-active-border": "#ffffff",
+              "color-danger-transparent-default": "rgba(255, 255, 255, 0.08)",
+              "color-danger-transparent-default-border": "#ffffff",
+              "color-danger-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-danger-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-danger-transparent-focus": "rgba(255, 255, 255, 0.24)",
+              "color-danger-transparent-focus-border": "#ffffff",
+              "color-danger-transparent-hover": "rgba(255, 255, 255, 0.16)",
+              "color-danger-transparent-hover-border": "#ffffff",
+              "color-info-100": "#D3F1F6",
+              "color-info-200": "#A9DFEE",
+              "color-info-300": "#74B5CD",
+              "color-info-400": "#477F9B",
+              "color-info-500": "#194059",
+              "color-info-600": "#12324C",
+              "color-info-700": "#0C2540",
+              "color-info-800": "#071A33",
+              "color-info-900": "#04122A",
+              "color-info-active": "#12324C",
+              "color-info-active-border": "#12324C",
+              "color-info-default": "#194059",
+              "color-info-default-border": "#194059",
+              "color-info-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-info-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-info-focus": "#12324C",
+              "color-info-focus-border": "#0C2540",
+              "color-info-hover": "#477F9B",
+              "color-info-hover-border": "#477F9B",
+              "color-info-transparent-100": "rgba(25, 64, 89, 0.08)",
+              "color-info-transparent-200": "rgba(25, 64, 89, 0.16)",
+              "color-info-transparent-300": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-400": "rgba(25, 64, 89, 0.32)",
+              "color-info-transparent-500": "rgba(25, 64, 89, 0.4)",
+              "color-info-transparent-600": "rgba(25, 64, 89, 0.48)",
+              "color-info-transparent-active": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-active-border": "#194059",
+              "color-info-transparent-default": "rgba(25, 64, 89, 0.08)",
+              "color-info-transparent-default-border": "#194059",
+              "color-info-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-info-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-info-transparent-focus": "rgba(25, 64, 89, 0.24)",
+              "color-info-transparent-focus-border": "#194059",
+              "color-info-transparent-hover": "rgba(25, 64, 89, 0.16)",
+              "color-info-transparent-hover-border": "#194059",
+              "color-primary-100": "#CEF6FE",
+              "color-primary-200": "#9EE9FE",
+              "color-primary-300": "#6ED5FD",
+              "color-primary-400": "#4ABFFB",
+              "color-primary-500": "#0F9CF9",
+              "color-primary-600": "#0A79D6",
+              "color-primary-700": "#075AB3",
+              "color-primary-800": "#044090",
+              "color-primary-900": "#022D77",
+              "color-primary-active": "#0A79D6",
+              "color-primary-active-border": "#0A79D6",
+              "color-primary-default": "#0F9CF9",
+              "color-primary-default-border": "#0F9CF9",
+              "color-primary-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-primary-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-primary-focus": "#0A79D6",
+              "color-primary-focus-border": "#075AB3",
+              "color-primary-hover": "#4ABFFB",
+              "color-primary-hover-border": "#4ABFFB",
+              "color-primary-transparent-100": "rgba(15, 156, 249, 0.08)",
+              "color-primary-transparent-200": "rgba(15, 156, 249, 0.16)",
+              "color-primary-transparent-300": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-400": "rgba(15, 156, 249, 0.32)",
+              "color-primary-transparent-500": "rgba(15, 156, 249, 0.4)",
+              "color-primary-transparent-600": "rgba(15, 156, 249, 0.48)",
+              "color-primary-transparent-active": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-active-border": "#0F9CF9",
+              "color-primary-transparent-default": "rgba(15, 156, 249, 0.08)",
+              "color-primary-transparent-default-border": "#0F9CF9",
+              "color-primary-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-primary-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-primary-transparent-focus": "rgba(15, 156, 249, 0.24)",
+              "color-primary-transparent-focus-border": "#0F9CF9",
+              "color-primary-transparent-hover": "rgba(15, 156, 249, 0.16)",
+              "color-primary-transparent-hover-border": "#0F9CF9",
+              "color-success-100": "#C9F2FA",
+              "color-success-200": "#95E0F5",
+              "color-success-300": "#5DBDE1",
+              "color-success-400": "#3494C4",
+              "color-success-500": "#04619e",
+              "color-success-600": "#024B87",
+              "color-success-700": "#023871",
+              "color-success-800": "#01275B",
+              "color-success-900": "#001C4B",
+              "color-success-active": "#024B87",
+              "color-success-active-border": "#024B87",
+              "color-success-default": "#04619e",
+              "color-success-default-border": "#04619e",
+              "color-success-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-success-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-success-focus": "#024B87",
+              "color-success-focus-border": "#023871",
+              "color-success-hover": "#3494C4",
+              "color-success-hover-border": "#3494C4",
+              "color-success-transparent-100": "rgba(4, 97, 158, 0.08)",
+              "color-success-transparent-200": "rgba(4, 97, 158, 0.16)",
+              "color-success-transparent-300": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-400": "rgba(4, 97, 158, 0.32)",
+              "color-success-transparent-500": "rgba(4, 97, 158, 0.4)",
+              "color-success-transparent-600": "rgba(4, 97, 158, 0.48)",
+              "color-success-transparent-active": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-active-border": "#04619e",
+              "color-success-transparent-default": "rgba(4, 97, 158, 0.08)",
+              "color-success-transparent-default-border": "#04619e",
+              "color-success-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-success-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-success-transparent-focus": "rgba(4, 97, 158, 0.24)",
+              "color-success-transparent-focus-border": "#04619e",
+              "color-success-transparent-hover": "rgba(4, 97, 158, 0.16)",
+              "color-success-transparent-hover-border": "#04619e",
+              "color-warning-100": "#FCFDFE",
+              "color-warning-200": "#FAFCFD",
+              "color-warning-300": "#F4F7F9",
+              "color-warning-400": "#EEF1F3",
+              "color-warning-500": "#e5e9ec",
+              "color-warning-600": "#A7B9CA",
+              "color-warning-700": "#738CA9",
+              "color-warning-800": "#496288",
+              "color-warning-900": "#2B4371",
+              "color-warning-active": "#A7B9CA",
+              "color-warning-active-border": "#A7B9CA",
+              "color-warning-default": "#e5e9ec",
+              "color-warning-default-border": "#e5e9ec",
+              "color-warning-disabled": "rgba(143, 155, 179, 0.24)",
+              "color-warning-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-warning-focus": "#A7B9CA",
+              "color-warning-focus-border": "#738CA9",
+              "color-warning-hover": "#EEF1F3",
+              "color-warning-hover-border": "#EEF1F3",
+              "color-warning-transparent-100": "rgba(229, 233, 236, 0.08)",
+              "color-warning-transparent-200": "rgba(229, 233, 236, 0.16)",
+              "color-warning-transparent-300": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-400": "rgba(229, 233, 236, 0.32)",
+              "color-warning-transparent-500": "rgba(229, 233, 236, 0.4)",
+              "color-warning-transparent-600": "rgba(229, 233, 236, 0.48)",
+              "color-warning-transparent-active": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-active-border": "#e5e9ec",
+              "color-warning-transparent-default": "rgba(229, 233, 236, 0.08)",
+              "color-warning-transparent-default-border": "#e5e9ec",
+              "color-warning-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+              "color-warning-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+              "color-warning-transparent-focus": "rgba(229, 233, 236, 0.24)",
+              "color-warning-transparent-focus-border": "#e5e9ec",
+              "color-warning-transparent-hover": "rgba(229, 233, 236, 0.16)",
+              "color-warning-transparent-hover-border": "#e5e9ec",
+              "outline-color": "rgba(143, 155, 179, 0.16)",
+              "text-alternate-color": "#FFFFFF",
+              "text-basic-color": "#222B45",
+              "text-control-color": "#FFFFFF",
+              "text-danger-active-color": "#DBBABD",
+              "text-danger-color": "#ffffff",
+              "text-danger-disabled-color": "#FFFFFF",
+              "text-danger-focus-color": "#DBBABD",
+              "text-danger-hover-color": "#FFFFFF",
+              "text-disabled-color": "rgba(143, 155, 179, 0.48)",
+              "text-hint-color": "#8F9BB3",
+              "text-info-active-color": "#12324C",
+              "text-info-color": "#194059",
+              "text-info-disabled-color": "#477F9B",
+              "text-info-focus-color": "#12324C",
+              "text-info-hover-color": "#477F9B",
+              "text-primary-active-color": "#0A79D6",
+              "text-primary-color": "#0F9CF9",
+              "text-primary-disabled-color": "#4ABFFB",
+              "text-primary-focus-color": "#0A79D6",
+              "text-primary-hover-color": "#4ABFFB",
+              "text-success-active-color": "#024B87",
+              "text-success-color": "#04619e",
+              "text-success-disabled-color": "#3494C4",
+              "text-success-focus-color": "#024B87",
+              "text-success-hover-color": "#3494C4",
+              "text-warning-active-color": "#A7B9CA",
+              "text-warning-color": "#e5e9ec",
+              "text-warning-disabled-color": "#EEF1F3",
+              "text-warning-focus-color": "#A7B9CA",
+              "text-warning-hover-color": "#EEF1F3",
+            }
+          }
+        >
+          Forgot your password?
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#0F9CF9",
+        "borderColor": "#0F9CF9",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginHorizontal": 16,
+        "minHeight": 56,
+        "minWidth": 56,
+        "opacity": 1,
+        "paddingHorizontal": 12,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <Text
+      appearance="default"
+      category="p1"
+      dispatch={[Function]}
+      style={
+        Array [
+          Object {
+            "color": "#222B45",
+            "fontFamily": "System",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "lineHeight": 20,
+          },
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "System",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "marginHorizontal": 12,
+            },
+            Object {},
+            undefined,
+          ],
+        ]
+      }
+      theme={
+        Object {
+          "background-alternative-color-1": "#222B45",
+          "background-alternative-color-2": "#1A2138",
+          "background-alternative-color-3": "#151A30",
+          "background-alternative-color-4": "#101426",
+          "background-basic-color-1": "#FFFFFF",
+          "background-basic-color-2": "#F7F9FC",
+          "background-basic-color-3": "#EDF1F7",
+          "background-basic-color-4": "#E4E9F2",
+          "border-alternative-color-1": "#222B45",
+          "border-alternative-color-2": "#1A2138",
+          "border-alternative-color-3": "#151A30",
+          "border-alternative-color-4": "#101426",
+          "border-alternative-color-5": "#101426",
+          "border-basic-color-1": "#FFFFFF",
+          "border-basic-color-2": "#F7F9FC",
+          "border-basic-color-3": "#EDF1F7",
+          "border-basic-color-4": "#E4E9F2",
+          "border-basic-color-5": "#C5CEE0",
+          "border-danger-color-1": "#ffffff",
+          "border-danger-color-2": "#DBBABD",
+          "border-danger-color-3": "#B7808A",
+          "border-danger-color-4": "#935162",
+          "border-danger-color-5": "#7A304A",
+          "border-info-color-1": "#194059",
+          "border-info-color-2": "#12324C",
+          "border-info-color-3": "#0C2540",
+          "border-info-color-4": "#071A33",
+          "border-info-color-5": "#04122A",
+          "border-primary-color-1": "#0F9CF9",
+          "border-primary-color-2": "#0A79D6",
+          "border-primary-color-3": "#075AB3",
+          "border-primary-color-4": "#044090",
+          "border-primary-color-5": "#022D77",
+          "border-success-color-1": "#04619e",
+          "border-success-color-2": "#024B87",
+          "border-success-color-3": "#023871",
+          "border-success-color-4": "#01275B",
+          "border-success-color-5": "#001C4B",
+          "border-warning-color-1": "#e5e9ec",
+          "border-warning-color-2": "#A7B9CA",
+          "border-warning-color-3": "#738CA9",
+          "border-warning-color-4": "#496288",
+          "border-warning-color-5": "#2B4371",
+          "color-basic-100": "#FFFFFF",
+          "color-basic-1000": "#151A30",
+          "color-basic-1100": "#101426",
+          "color-basic-200": "#F7F9FC",
+          "color-basic-300": "#EDF1F7",
+          "color-basic-400": "#E4E9F2",
+          "color-basic-500": "#C5CEE0",
+          "color-basic-600": "#8F9BB3",
+          "color-basic-700": "#2E3A59",
+          "color-basic-800": "#222B45",
+          "color-basic-900": "#1A2138",
+          "color-basic-active": "#E4E9F2",
+          "color-basic-active-border": "#E4E9F2",
+          "color-basic-control-transparent-100": "rgba(255, 255, 255, 0.08)",
+          "color-basic-control-transparent-200": "rgba(255, 255, 255, 0.16)",
+          "color-basic-control-transparent-300": "rgba(255, 255, 255, 0.24)",
+          "color-basic-control-transparent-400": "rgba(255, 255, 255, 0.32)",
+          "color-basic-control-transparent-500": "rgba(255, 255, 255, 0.40)",
+          "color-basic-control-transparent-600": "rgba(255, 255, 255, 0.48)",
+          "color-basic-default": "#EDF1F7",
+          "color-basic-default-border": "#EDF1F7",
+          "color-basic-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-basic-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-basic-focus": "#E4E9F2",
+          "color-basic-focus-border": "#C5CEE0",
+          "color-basic-hover": "#F7F9FC",
+          "color-basic-hover-border": "#F7F9FC",
+          "color-basic-transparent-100": "rgba(143, 155, 179, 0.08)",
+          "color-basic-transparent-200": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-300": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-400": "rgba(143, 155, 179, 0.32)",
+          "color-basic-transparent-500": "rgba(143, 155, 179, 0.40)",
+          "color-basic-transparent-600": "rgba(143, 155, 179, 0.48)",
+          "color-basic-transparent-active": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-active-border": "#8F9BB3",
+          "color-basic-transparent-default": "rgba(143, 155, 179, 0.08)",
+          "color-basic-transparent-default-border": "#8F9BB3",
+          "color-basic-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-focus": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-focus-border": "#8F9BB3",
+          "color-basic-transparent-hover": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-hover-border": "#8F9BB3",
+          "color-control-active": "#EDF1F7",
+          "color-control-active-border": "#EDF1F7",
+          "color-control-default": "#FFFFFF",
+          "color-control-default-border": "#FFFFFF",
+          "color-control-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-control-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-control-focus": "#EDF1F7",
+          "color-control-focus-border": "#C5CEE0",
+          "color-control-hover": "#F7F9FC",
+          "color-control-hover-border": "#F7F9FC",
+          "color-control-transparent-active": "rgba(255, 255, 255, 0.24)",
+          "color-control-transparent-active-border": "#FFFFFF",
+          "color-control-transparent-default": "rgba(255, 255, 255, 0.08)",
+          "color-control-transparent-default-border": "#FFFFFF",
+          "color-control-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-control-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-control-transparent-focus": "rgba(255, 255, 255, 0.24)",
+          "color-control-transparent-focus-border": "#FFFFFF",
+          "color-control-transparent-hover": "rgba(255, 255, 255, 0.16)",
+          "color-control-transparent-hover-border": "#FFFFFF",
+          "color-danger-100": "#FFFFFF",
+          "color-danger-200": "#FFFFFF",
+          "color-danger-300": "#FFFFFF",
+          "color-danger-400": "#FFFFFF",
+          "color-danger-500": "#ffffff",
+          "color-danger-600": "#DBBABD",
+          "color-danger-700": "#B7808A",
+          "color-danger-800": "#935162",
+          "color-danger-900": "#7A304A",
+          "color-danger-active": "#DBBABD",
+          "color-danger-active-border": "#DBBABD",
+          "color-danger-default": "#ffffff",
+          "color-danger-default-border": "#ffffff",
+          "color-danger-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-danger-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-danger-focus": "#DBBABD",
+          "color-danger-focus-border": "color-danger-700",
+          "color-danger-hover": "#FFFFFF",
+          "color-danger-hover-border": "#FFFFFF",
+          "color-danger-transparent-100": "rgba(255, 255, 255, 0.08)",
+          "color-danger-transparent-200": "rgba(255, 255, 255, 0.16)",
+          "color-danger-transparent-300": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-400": "rgba(255, 255, 255, 0.32)",
+          "color-danger-transparent-500": "rgba(255, 255, 255, 0.4)",
+          "color-danger-transparent-600": "rgba(255, 255, 255, 0.48)",
+          "color-danger-transparent-active": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-active-border": "#ffffff",
+          "color-danger-transparent-default": "rgba(255, 255, 255, 0.08)",
+          "color-danger-transparent-default-border": "#ffffff",
+          "color-danger-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-danger-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-danger-transparent-focus": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-focus-border": "#ffffff",
+          "color-danger-transparent-hover": "rgba(255, 255, 255, 0.16)",
+          "color-danger-transparent-hover-border": "#ffffff",
+          "color-info-100": "#D3F1F6",
+          "color-info-200": "#A9DFEE",
+          "color-info-300": "#74B5CD",
+          "color-info-400": "#477F9B",
+          "color-info-500": "#194059",
+          "color-info-600": "#12324C",
+          "color-info-700": "#0C2540",
+          "color-info-800": "#071A33",
+          "color-info-900": "#04122A",
+          "color-info-active": "#12324C",
+          "color-info-active-border": "#12324C",
+          "color-info-default": "#194059",
+          "color-info-default-border": "#194059",
+          "color-info-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-info-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-info-focus": "#12324C",
+          "color-info-focus-border": "#0C2540",
+          "color-info-hover": "#477F9B",
+          "color-info-hover-border": "#477F9B",
+          "color-info-transparent-100": "rgba(25, 64, 89, 0.08)",
+          "color-info-transparent-200": "rgba(25, 64, 89, 0.16)",
+          "color-info-transparent-300": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-400": "rgba(25, 64, 89, 0.32)",
+          "color-info-transparent-500": "rgba(25, 64, 89, 0.4)",
+          "color-info-transparent-600": "rgba(25, 64, 89, 0.48)",
+          "color-info-transparent-active": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-active-border": "#194059",
+          "color-info-transparent-default": "rgba(25, 64, 89, 0.08)",
+          "color-info-transparent-default-border": "#194059",
+          "color-info-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-info-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-info-transparent-focus": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-focus-border": "#194059",
+          "color-info-transparent-hover": "rgba(25, 64, 89, 0.16)",
+          "color-info-transparent-hover-border": "#194059",
+          "color-primary-100": "#CEF6FE",
+          "color-primary-200": "#9EE9FE",
+          "color-primary-300": "#6ED5FD",
+          "color-primary-400": "#4ABFFB",
+          "color-primary-500": "#0F9CF9",
+          "color-primary-600": "#0A79D6",
+          "color-primary-700": "#075AB3",
+          "color-primary-800": "#044090",
+          "color-primary-900": "#022D77",
+          "color-primary-active": "#0A79D6",
+          "color-primary-active-border": "#0A79D6",
+          "color-primary-default": "#0F9CF9",
+          "color-primary-default-border": "#0F9CF9",
+          "color-primary-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-primary-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-primary-focus": "#0A79D6",
+          "color-primary-focus-border": "#075AB3",
+          "color-primary-hover": "#4ABFFB",
+          "color-primary-hover-border": "#4ABFFB",
+          "color-primary-transparent-100": "rgba(15, 156, 249, 0.08)",
+          "color-primary-transparent-200": "rgba(15, 156, 249, 0.16)",
+          "color-primary-transparent-300": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-400": "rgba(15, 156, 249, 0.32)",
+          "color-primary-transparent-500": "rgba(15, 156, 249, 0.4)",
+          "color-primary-transparent-600": "rgba(15, 156, 249, 0.48)",
+          "color-primary-transparent-active": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-active-border": "#0F9CF9",
+          "color-primary-transparent-default": "rgba(15, 156, 249, 0.08)",
+          "color-primary-transparent-default-border": "#0F9CF9",
+          "color-primary-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-primary-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-primary-transparent-focus": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-focus-border": "#0F9CF9",
+          "color-primary-transparent-hover": "rgba(15, 156, 249, 0.16)",
+          "color-primary-transparent-hover-border": "#0F9CF9",
+          "color-success-100": "#C9F2FA",
+          "color-success-200": "#95E0F5",
+          "color-success-300": "#5DBDE1",
+          "color-success-400": "#3494C4",
+          "color-success-500": "#04619e",
+          "color-success-600": "#024B87",
+          "color-success-700": "#023871",
+          "color-success-800": "#01275B",
+          "color-success-900": "#001C4B",
+          "color-success-active": "#024B87",
+          "color-success-active-border": "#024B87",
+          "color-success-default": "#04619e",
+          "color-success-default-border": "#04619e",
+          "color-success-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-success-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-success-focus": "#024B87",
+          "color-success-focus-border": "#023871",
+          "color-success-hover": "#3494C4",
+          "color-success-hover-border": "#3494C4",
+          "color-success-transparent-100": "rgba(4, 97, 158, 0.08)",
+          "color-success-transparent-200": "rgba(4, 97, 158, 0.16)",
+          "color-success-transparent-300": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-400": "rgba(4, 97, 158, 0.32)",
+          "color-success-transparent-500": "rgba(4, 97, 158, 0.4)",
+          "color-success-transparent-600": "rgba(4, 97, 158, 0.48)",
+          "color-success-transparent-active": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-active-border": "#04619e",
+          "color-success-transparent-default": "rgba(4, 97, 158, 0.08)",
+          "color-success-transparent-default-border": "#04619e",
+          "color-success-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-success-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-success-transparent-focus": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-focus-border": "#04619e",
+          "color-success-transparent-hover": "rgba(4, 97, 158, 0.16)",
+          "color-success-transparent-hover-border": "#04619e",
+          "color-warning-100": "#FCFDFE",
+          "color-warning-200": "#FAFCFD",
+          "color-warning-300": "#F4F7F9",
+          "color-warning-400": "#EEF1F3",
+          "color-warning-500": "#e5e9ec",
+          "color-warning-600": "#A7B9CA",
+          "color-warning-700": "#738CA9",
+          "color-warning-800": "#496288",
+          "color-warning-900": "#2B4371",
+          "color-warning-active": "#A7B9CA",
+          "color-warning-active-border": "#A7B9CA",
+          "color-warning-default": "#e5e9ec",
+          "color-warning-default-border": "#e5e9ec",
+          "color-warning-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-warning-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-warning-focus": "#A7B9CA",
+          "color-warning-focus-border": "#738CA9",
+          "color-warning-hover": "#EEF1F3",
+          "color-warning-hover-border": "#EEF1F3",
+          "color-warning-transparent-100": "rgba(229, 233, 236, 0.08)",
+          "color-warning-transparent-200": "rgba(229, 233, 236, 0.16)",
+          "color-warning-transparent-300": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-400": "rgba(229, 233, 236, 0.32)",
+          "color-warning-transparent-500": "rgba(229, 233, 236, 0.4)",
+          "color-warning-transparent-600": "rgba(229, 233, 236, 0.48)",
+          "color-warning-transparent-active": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-active-border": "#e5e9ec",
+          "color-warning-transparent-default": "rgba(229, 233, 236, 0.08)",
+          "color-warning-transparent-default-border": "#e5e9ec",
+          "color-warning-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-warning-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-warning-transparent-focus": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-focus-border": "#e5e9ec",
+          "color-warning-transparent-hover": "rgba(229, 233, 236, 0.16)",
+          "color-warning-transparent-hover-border": "#e5e9ec",
+          "outline-color": "rgba(143, 155, 179, 0.16)",
+          "text-alternate-color": "#FFFFFF",
+          "text-basic-color": "#222B45",
+          "text-control-color": "#FFFFFF",
+          "text-danger-active-color": "#DBBABD",
+          "text-danger-color": "#ffffff",
+          "text-danger-disabled-color": "#FFFFFF",
+          "text-danger-focus-color": "#DBBABD",
+          "text-danger-hover-color": "#FFFFFF",
+          "text-disabled-color": "rgba(143, 155, 179, 0.48)",
+          "text-hint-color": "#8F9BB3",
+          "text-info-active-color": "#12324C",
+          "text-info-color": "#194059",
+          "text-info-disabled-color": "#477F9B",
+          "text-info-focus-color": "#12324C",
+          "text-info-hover-color": "#477F9B",
+          "text-primary-active-color": "#0A79D6",
+          "text-primary-color": "#0F9CF9",
+          "text-primary-disabled-color": "#4ABFFB",
+          "text-primary-focus-color": "#0A79D6",
+          "text-primary-hover-color": "#4ABFFB",
+          "text-success-active-color": "#024B87",
+          "text-success-color": "#04619e",
+          "text-success-disabled-color": "#3494C4",
+          "text-success-focus-color": "#024B87",
+          "text-success-hover-color": "#3494C4",
+          "text-warning-active-color": "#A7B9CA",
+          "text-warning-color": "#e5e9ec",
+          "text-warning-disabled-color": "#EEF1F3",
+          "text-warning-focus-color": "#A7B9CA",
+          "text-warning-hover-color": "#EEF1F3",
+        }
+      }
+    >
+      SIGN IN
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderColor": "transparent",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginHorizontal": 16,
+        "marginVertical": 12,
+        "minHeight": 40,
+        "minWidth": 40,
+        "opacity": 1,
+        "paddingHorizontal": 10,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <Text
+      appearance="default"
+      category="p1"
+      dispatch={[Function]}
+      style={
+        Array [
+          Object {
+            "color": "#222B45",
+            "fontFamily": "System",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "lineHeight": 20,
+          },
+          Array [
+            Object {
+              "color": "#8F9BB3",
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+              "marginHorizontal": 10,
+            },
+            Object {},
+            undefined,
+          ],
+        ]
+      }
+      theme={
+        Object {
+          "background-alternative-color-1": "#222B45",
+          "background-alternative-color-2": "#1A2138",
+          "background-alternative-color-3": "#151A30",
+          "background-alternative-color-4": "#101426",
+          "background-basic-color-1": "#FFFFFF",
+          "background-basic-color-2": "#F7F9FC",
+          "background-basic-color-3": "#EDF1F7",
+          "background-basic-color-4": "#E4E9F2",
+          "border-alternative-color-1": "#222B45",
+          "border-alternative-color-2": "#1A2138",
+          "border-alternative-color-3": "#151A30",
+          "border-alternative-color-4": "#101426",
+          "border-alternative-color-5": "#101426",
+          "border-basic-color-1": "#FFFFFF",
+          "border-basic-color-2": "#F7F9FC",
+          "border-basic-color-3": "#EDF1F7",
+          "border-basic-color-4": "#E4E9F2",
+          "border-basic-color-5": "#C5CEE0",
+          "border-danger-color-1": "#ffffff",
+          "border-danger-color-2": "#DBBABD",
+          "border-danger-color-3": "#B7808A",
+          "border-danger-color-4": "#935162",
+          "border-danger-color-5": "#7A304A",
+          "border-info-color-1": "#194059",
+          "border-info-color-2": "#12324C",
+          "border-info-color-3": "#0C2540",
+          "border-info-color-4": "#071A33",
+          "border-info-color-5": "#04122A",
+          "border-primary-color-1": "#0F9CF9",
+          "border-primary-color-2": "#0A79D6",
+          "border-primary-color-3": "#075AB3",
+          "border-primary-color-4": "#044090",
+          "border-primary-color-5": "#022D77",
+          "border-success-color-1": "#04619e",
+          "border-success-color-2": "#024B87",
+          "border-success-color-3": "#023871",
+          "border-success-color-4": "#01275B",
+          "border-success-color-5": "#001C4B",
+          "border-warning-color-1": "#e5e9ec",
+          "border-warning-color-2": "#A7B9CA",
+          "border-warning-color-3": "#738CA9",
+          "border-warning-color-4": "#496288",
+          "border-warning-color-5": "#2B4371",
+          "color-basic-100": "#FFFFFF",
+          "color-basic-1000": "#151A30",
+          "color-basic-1100": "#101426",
+          "color-basic-200": "#F7F9FC",
+          "color-basic-300": "#EDF1F7",
+          "color-basic-400": "#E4E9F2",
+          "color-basic-500": "#C5CEE0",
+          "color-basic-600": "#8F9BB3",
+          "color-basic-700": "#2E3A59",
+          "color-basic-800": "#222B45",
+          "color-basic-900": "#1A2138",
+          "color-basic-active": "#E4E9F2",
+          "color-basic-active-border": "#E4E9F2",
+          "color-basic-control-transparent-100": "rgba(255, 255, 255, 0.08)",
+          "color-basic-control-transparent-200": "rgba(255, 255, 255, 0.16)",
+          "color-basic-control-transparent-300": "rgba(255, 255, 255, 0.24)",
+          "color-basic-control-transparent-400": "rgba(255, 255, 255, 0.32)",
+          "color-basic-control-transparent-500": "rgba(255, 255, 255, 0.40)",
+          "color-basic-control-transparent-600": "rgba(255, 255, 255, 0.48)",
+          "color-basic-default": "#EDF1F7",
+          "color-basic-default-border": "#EDF1F7",
+          "color-basic-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-basic-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-basic-focus": "#E4E9F2",
+          "color-basic-focus-border": "#C5CEE0",
+          "color-basic-hover": "#F7F9FC",
+          "color-basic-hover-border": "#F7F9FC",
+          "color-basic-transparent-100": "rgba(143, 155, 179, 0.08)",
+          "color-basic-transparent-200": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-300": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-400": "rgba(143, 155, 179, 0.32)",
+          "color-basic-transparent-500": "rgba(143, 155, 179, 0.40)",
+          "color-basic-transparent-600": "rgba(143, 155, 179, 0.48)",
+          "color-basic-transparent-active": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-active-border": "#8F9BB3",
+          "color-basic-transparent-default": "rgba(143, 155, 179, 0.08)",
+          "color-basic-transparent-default-border": "#8F9BB3",
+          "color-basic-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-focus": "rgba(143, 155, 179, 0.24)",
+          "color-basic-transparent-focus-border": "#8F9BB3",
+          "color-basic-transparent-hover": "rgba(143, 155, 179, 0.16)",
+          "color-basic-transparent-hover-border": "#8F9BB3",
+          "color-control-active": "#EDF1F7",
+          "color-control-active-border": "#EDF1F7",
+          "color-control-default": "#FFFFFF",
+          "color-control-default-border": "#FFFFFF",
+          "color-control-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-control-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-control-focus": "#EDF1F7",
+          "color-control-focus-border": "#C5CEE0",
+          "color-control-hover": "#F7F9FC",
+          "color-control-hover-border": "#F7F9FC",
+          "color-control-transparent-active": "rgba(255, 255, 255, 0.24)",
+          "color-control-transparent-active-border": "#FFFFFF",
+          "color-control-transparent-default": "rgba(255, 255, 255, 0.08)",
+          "color-control-transparent-default-border": "#FFFFFF",
+          "color-control-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-control-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-control-transparent-focus": "rgba(255, 255, 255, 0.24)",
+          "color-control-transparent-focus-border": "#FFFFFF",
+          "color-control-transparent-hover": "rgba(255, 255, 255, 0.16)",
+          "color-control-transparent-hover-border": "#FFFFFF",
+          "color-danger-100": "#FFFFFF",
+          "color-danger-200": "#FFFFFF",
+          "color-danger-300": "#FFFFFF",
+          "color-danger-400": "#FFFFFF",
+          "color-danger-500": "#ffffff",
+          "color-danger-600": "#DBBABD",
+          "color-danger-700": "#B7808A",
+          "color-danger-800": "#935162",
+          "color-danger-900": "#7A304A",
+          "color-danger-active": "#DBBABD",
+          "color-danger-active-border": "#DBBABD",
+          "color-danger-default": "#ffffff",
+          "color-danger-default-border": "#ffffff",
+          "color-danger-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-danger-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-danger-focus": "#DBBABD",
+          "color-danger-focus-border": "color-danger-700",
+          "color-danger-hover": "#FFFFFF",
+          "color-danger-hover-border": "#FFFFFF",
+          "color-danger-transparent-100": "rgba(255, 255, 255, 0.08)",
+          "color-danger-transparent-200": "rgba(255, 255, 255, 0.16)",
+          "color-danger-transparent-300": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-400": "rgba(255, 255, 255, 0.32)",
+          "color-danger-transparent-500": "rgba(255, 255, 255, 0.4)",
+          "color-danger-transparent-600": "rgba(255, 255, 255, 0.48)",
+          "color-danger-transparent-active": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-active-border": "#ffffff",
+          "color-danger-transparent-default": "rgba(255, 255, 255, 0.08)",
+          "color-danger-transparent-default-border": "#ffffff",
+          "color-danger-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-danger-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-danger-transparent-focus": "rgba(255, 255, 255, 0.24)",
+          "color-danger-transparent-focus-border": "#ffffff",
+          "color-danger-transparent-hover": "rgba(255, 255, 255, 0.16)",
+          "color-danger-transparent-hover-border": "#ffffff",
+          "color-info-100": "#D3F1F6",
+          "color-info-200": "#A9DFEE",
+          "color-info-300": "#74B5CD",
+          "color-info-400": "#477F9B",
+          "color-info-500": "#194059",
+          "color-info-600": "#12324C",
+          "color-info-700": "#0C2540",
+          "color-info-800": "#071A33",
+          "color-info-900": "#04122A",
+          "color-info-active": "#12324C",
+          "color-info-active-border": "#12324C",
+          "color-info-default": "#194059",
+          "color-info-default-border": "#194059",
+          "color-info-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-info-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-info-focus": "#12324C",
+          "color-info-focus-border": "#0C2540",
+          "color-info-hover": "#477F9B",
+          "color-info-hover-border": "#477F9B",
+          "color-info-transparent-100": "rgba(25, 64, 89, 0.08)",
+          "color-info-transparent-200": "rgba(25, 64, 89, 0.16)",
+          "color-info-transparent-300": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-400": "rgba(25, 64, 89, 0.32)",
+          "color-info-transparent-500": "rgba(25, 64, 89, 0.4)",
+          "color-info-transparent-600": "rgba(25, 64, 89, 0.48)",
+          "color-info-transparent-active": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-active-border": "#194059",
+          "color-info-transparent-default": "rgba(25, 64, 89, 0.08)",
+          "color-info-transparent-default-border": "#194059",
+          "color-info-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-info-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-info-transparent-focus": "rgba(25, 64, 89, 0.24)",
+          "color-info-transparent-focus-border": "#194059",
+          "color-info-transparent-hover": "rgba(25, 64, 89, 0.16)",
+          "color-info-transparent-hover-border": "#194059",
+          "color-primary-100": "#CEF6FE",
+          "color-primary-200": "#9EE9FE",
+          "color-primary-300": "#6ED5FD",
+          "color-primary-400": "#4ABFFB",
+          "color-primary-500": "#0F9CF9",
+          "color-primary-600": "#0A79D6",
+          "color-primary-700": "#075AB3",
+          "color-primary-800": "#044090",
+          "color-primary-900": "#022D77",
+          "color-primary-active": "#0A79D6",
+          "color-primary-active-border": "#0A79D6",
+          "color-primary-default": "#0F9CF9",
+          "color-primary-default-border": "#0F9CF9",
+          "color-primary-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-primary-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-primary-focus": "#0A79D6",
+          "color-primary-focus-border": "#075AB3",
+          "color-primary-hover": "#4ABFFB",
+          "color-primary-hover-border": "#4ABFFB",
+          "color-primary-transparent-100": "rgba(15, 156, 249, 0.08)",
+          "color-primary-transparent-200": "rgba(15, 156, 249, 0.16)",
+          "color-primary-transparent-300": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-400": "rgba(15, 156, 249, 0.32)",
+          "color-primary-transparent-500": "rgba(15, 156, 249, 0.4)",
+          "color-primary-transparent-600": "rgba(15, 156, 249, 0.48)",
+          "color-primary-transparent-active": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-active-border": "#0F9CF9",
+          "color-primary-transparent-default": "rgba(15, 156, 249, 0.08)",
+          "color-primary-transparent-default-border": "#0F9CF9",
+          "color-primary-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-primary-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-primary-transparent-focus": "rgba(15, 156, 249, 0.24)",
+          "color-primary-transparent-focus-border": "#0F9CF9",
+          "color-primary-transparent-hover": "rgba(15, 156, 249, 0.16)",
+          "color-primary-transparent-hover-border": "#0F9CF9",
+          "color-success-100": "#C9F2FA",
+          "color-success-200": "#95E0F5",
+          "color-success-300": "#5DBDE1",
+          "color-success-400": "#3494C4",
+          "color-success-500": "#04619e",
+          "color-success-600": "#024B87",
+          "color-success-700": "#023871",
+          "color-success-800": "#01275B",
+          "color-success-900": "#001C4B",
+          "color-success-active": "#024B87",
+          "color-success-active-border": "#024B87",
+          "color-success-default": "#04619e",
+          "color-success-default-border": "#04619e",
+          "color-success-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-success-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-success-focus": "#024B87",
+          "color-success-focus-border": "#023871",
+          "color-success-hover": "#3494C4",
+          "color-success-hover-border": "#3494C4",
+          "color-success-transparent-100": "rgba(4, 97, 158, 0.08)",
+          "color-success-transparent-200": "rgba(4, 97, 158, 0.16)",
+          "color-success-transparent-300": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-400": "rgba(4, 97, 158, 0.32)",
+          "color-success-transparent-500": "rgba(4, 97, 158, 0.4)",
+          "color-success-transparent-600": "rgba(4, 97, 158, 0.48)",
+          "color-success-transparent-active": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-active-border": "#04619e",
+          "color-success-transparent-default": "rgba(4, 97, 158, 0.08)",
+          "color-success-transparent-default-border": "#04619e",
+          "color-success-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-success-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-success-transparent-focus": "rgba(4, 97, 158, 0.24)",
+          "color-success-transparent-focus-border": "#04619e",
+          "color-success-transparent-hover": "rgba(4, 97, 158, 0.16)",
+          "color-success-transparent-hover-border": "#04619e",
+          "color-warning-100": "#FCFDFE",
+          "color-warning-200": "#FAFCFD",
+          "color-warning-300": "#F4F7F9",
+          "color-warning-400": "#EEF1F3",
+          "color-warning-500": "#e5e9ec",
+          "color-warning-600": "#A7B9CA",
+          "color-warning-700": "#738CA9",
+          "color-warning-800": "#496288",
+          "color-warning-900": "#2B4371",
+          "color-warning-active": "#A7B9CA",
+          "color-warning-active-border": "#A7B9CA",
+          "color-warning-default": "#e5e9ec",
+          "color-warning-default-border": "#e5e9ec",
+          "color-warning-disabled": "rgba(143, 155, 179, 0.24)",
+          "color-warning-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-warning-focus": "#A7B9CA",
+          "color-warning-focus-border": "#738CA9",
+          "color-warning-hover": "#EEF1F3",
+          "color-warning-hover-border": "#EEF1F3",
+          "color-warning-transparent-100": "rgba(229, 233, 236, 0.08)",
+          "color-warning-transparent-200": "rgba(229, 233, 236, 0.16)",
+          "color-warning-transparent-300": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-400": "rgba(229, 233, 236, 0.32)",
+          "color-warning-transparent-500": "rgba(229, 233, 236, 0.4)",
+          "color-warning-transparent-600": "rgba(229, 233, 236, 0.48)",
+          "color-warning-transparent-active": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-active-border": "#e5e9ec",
+          "color-warning-transparent-default": "rgba(229, 233, 236, 0.08)",
+          "color-warning-transparent-default-border": "#e5e9ec",
+          "color-warning-transparent-disabled": "rgba(143, 155, 179, 0.16)",
+          "color-warning-transparent-disabled-border": "rgba(143, 155, 179, 0.24)",
+          "color-warning-transparent-focus": "rgba(229, 233, 236, 0.24)",
+          "color-warning-transparent-focus-border": "#e5e9ec",
+          "color-warning-transparent-hover": "rgba(229, 233, 236, 0.16)",
+          "color-warning-transparent-hover-border": "#e5e9ec",
+          "outline-color": "rgba(143, 155, 179, 0.16)",
+          "text-alternate-color": "#FFFFFF",
+          "text-basic-color": "#222B45",
+          "text-control-color": "#FFFFFF",
+          "text-danger-active-color": "#DBBABD",
+          "text-danger-color": "#ffffff",
+          "text-danger-disabled-color": "#FFFFFF",
+          "text-danger-focus-color": "#DBBABD",
+          "text-danger-hover-color": "#FFFFFF",
+          "text-disabled-color": "rgba(143, 155, 179, 0.48)",
+          "text-hint-color": "#8F9BB3",
+          "text-info-active-color": "#12324C",
+          "text-info-color": "#194059",
+          "text-info-disabled-color": "#477F9B",
+          "text-info-focus-color": "#12324C",
+          "text-info-hover-color": "#477F9B",
+          "text-primary-active-color": "#0A79D6",
+          "text-primary-color": "#0F9CF9",
+          "text-primary-disabled-color": "#4ABFFB",
+          "text-primary-focus-color": "#0A79D6",
+          "text-primary-hover-color": "#4ABFFB",
+          "text-success-active-color": "#024B87",
+          "text-success-color": "#04619e",
+          "text-success-disabled-color": "#3494C4",
+          "text-success-focus-color": "#024B87",
+          "text-success-hover-color": "#3494C4",
+          "text-warning-active-color": "#A7B9CA",
+          "text-warning-color": "#e5e9ec",
+          "text-warning-disabled-color": "#EEF1F3",
+          "text-warning-focus-color": "#A7B9CA",
+          "text-warning-hover-color": "#EEF1F3",
+        }
+      }
+    >
+      Guest Sign In
+    </Text>
+  </View>
+</View>
+`;
