@@ -30,7 +30,7 @@ $ yarn start
 
 
 
-# Features Figma Desgins
+# Figma Desgins
 
 ![Screenshot](screenshot.png)
 # Figma File
